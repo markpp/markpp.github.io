@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Adaptive Slaugther Robots</title><link href="http://markpp.github.io/" rel="alternate"></link><link href="http://markpp.github.io/feeds/all.atom.xml" rel="self"></link><id>http://markpp.github.io/</id><updated>2017-02-23T17:49:00+01:00</updated><entry><title>Injection</title><link href="http://markpp.github.io/inject.html" rel="alternate"></link><published>2017-01-23T17:49:00+01:00</published><updated>2017-02-23T17:49:00+01:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-01-23:/inject.html</id><summary type="html">&lt;p&gt;Short version of my first blog post&lt;/p&gt;</summary><content type="html">&lt;p&gt;The brine injection problem was selected as the basis for a "quick and dirty" project where an adaptiv method could be applied. The project was to be confined to approximatly 3 month, this means that it is nessecary to significantly deliminate the purpose and make wide use of "hand held" solutions in order to quickly try out ideas. &lt;/p&gt;
+&lt;h2&gt;Process description&lt;/h2&gt;
+&lt;h2&gt;Initial experiement&lt;/h2&gt;
+&lt;h2&gt;State-of-the-art&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=UzfrEysbKYs"&gt;&lt;img alt="Schröder (DE)" src="http://img.youtube.com/vi/UzfrEysbKYs/0.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Project directions&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Basic "chip-tuning"&lt;/strong&gt; focused on exsisting medium-low tier machines. 
+    * Automation of procesparameters using feedback from weighing before and after injection
+&lt;img alt="Basic_chip-tuning" src="figures/basic_chip-tuning.png"&gt;  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Advanced "chip-tuning"&lt;/strong&gt; focused on exsisting top tier machines&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatic switching between recipes based on detection of meat type&lt;/li&gt;
+&lt;li&gt;Local adjustment of brine based on
+&lt;img alt="Advanced_chip-tuning" src="figures/advanced_chip-tuning.png"&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Robot cell&lt;/strong&gt; solution&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Local adjustment of brine based on&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Robot cell&lt;/strong&gt; for experimentation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Local injection of brine followed by weighing in order to determine local gain
+&lt;img alt="Local injection experiment" src="figures/local_injection_experiment.png"&gt;    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Research possibilities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Controlling procesparameters&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Neural network nonlinear predictive control&lt;a href="http://ieeexplore.ieee.org/abstract/document/7087381/"&gt;popular paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Estimating volume/weight from 2D or 3D images&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Closed-loop controller" src="figures/mss_controller_diagram.png"&gt;&lt;/p&gt;</content><category term="first"></category><category term="misc"></category></entry></feed>
