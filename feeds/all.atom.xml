@@ -1,46 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Adaptive Slaugther Robots</title><link href="http://markpp.github.io/" rel="alternate"></link><link href="http://markpp.github.io/feeds/all.atom.xml" rel="self"></link><id>http://markpp.github.io/</id><updated>2017-02-23T17:49:00+01:00</updated><entry><title>Injection</title><link href="http://markpp.github.io/inject.html" rel="alternate"></link><published>2017-01-23T17:49:00+01:00</published><updated>2017-02-23T17:49:00+01:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-01-23:/inject.html</id><summary type="html">&lt;p&gt;Short version of my first blog post&lt;/p&gt;</summary><content type="html">&lt;p&gt;The brine injection problem was selected as the basis for a "quick and dirty" project where an adaptiv method could be applied. The project was to be confined to approximatly 3 month, this means that it is nessecary to significantly deliminate the purpose and make wide use of "hand held" solutions in order to quickly try out ideas. &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Adaptive Slaugther Robots</title><link href="http://markpp.github.io/" rel="alternate"></link><link href="http://markpp.github.io/feeds/all.atom.xml" rel="self"></link><id>http://markpp.github.io/</id><updated>2017-02-23T17:49:00+01:00</updated><entry><title>Injection</title><link href="http://markpp.github.io/inject.html" rel="alternate"></link><published>2017-01-23T17:49:00+01:00</published><updated>2017-02-23T17:49:00+01:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-01-23:/inject.html</id><summary type="html">&lt;p&gt;Overview of the selection process for brine injection project&lt;/p&gt;</summary><content type="html">&lt;p&gt;The brine injection problem was selected as the basis for a "quick and dirty" project where an adaptiv method could be applied. The project was to be confined to approximatly 3 month, this means that it is nessecary to significantly deliminate the purpose and make wide use of "hand held" solutions in order to quickly try out ideas. &lt;/p&gt;
 &lt;h2&gt;Process description&lt;/h2&gt;
+&lt;p&gt;Brine is pumped in to a wide range of meat before packaging in order to mature, tenderize and enhance flavour. The brine consists of water and a mixture of salts, nitrate and in some cases sugar or various types of flavoring. &lt;/p&gt;
 &lt;h2&gt;Initial experiement&lt;/h2&gt;
+&lt;p&gt;An inital experiment was conducted in order to investigate the effect of the two primary proces parameters; brine pressure and injection speed, as well as determine the possibilities for visually measuring the gain using 3D sensing.&lt;/p&gt;
 &lt;h2&gt;State-of-the-art&lt;/h2&gt;
+&lt;p&gt;Brine injection:&lt;/p&gt;
+&lt;p&gt;New needles&lt;/p&gt;
+&lt;p&gt;Machines:&lt;/p&gt;
+&lt;p&gt;Schröder (DE): 
+Automated adjustment of brine pressure based on weight before and after injection.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.schroeder-maschinen.de/en/machines/injectors-imax.html"&gt;IMAX 420&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=UzfrEysbKYs"&gt;&lt;img alt="Schröder (DE)" src="http://img.youtube.com/vi/UzfrEysbKYs/0.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Günther (DE)
+Individual needle damage and flow detection.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.guenther-maschinenbau.de/en/g-products/pih-300-2-pih-600-4/"&gt;PI 750 DUO&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;FOMACO (DK)
+Inline Weight Controller (IWC) constantly monitors the injection quantity and corrects the settings in case of irregularities.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.fomaco.com/meat/machines/the-fomaco-m3"&gt;M3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Metalbud Nowicki (PL)&lt;/p&gt;
+&lt;p&gt;GAROS (SE)&lt;/p&gt;
+&lt;p&gt;Marel (IS)&lt;/p&gt;
 &lt;h2&gt;Project directions&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Basic "chip-tuning"&lt;/strong&gt; focused on exsisting medium-low tier machines. 
-    * Automation of procesparameters using feedback from weighing before and after injection
-&lt;img alt="Basic_chip-tuning" src="../images/basic_chip-tuning.png"&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Basic "chip-tuning"&lt;/strong&gt; focused on exsisting medium-low tier machines
+    * Automation of procesparameters using feedback from weighing before and after injection&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Basic_chip-tuning" src="../images/basic_chip-tuning.png"&gt;  &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Advanced "chip-tuning"&lt;/strong&gt; focused on exsisting top tier machines&lt;/p&gt;
-&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Advanced "chip-tuning"&lt;/strong&gt; focused on exsisting top tier machines&lt;ul&gt;
 &lt;li&gt;Automatic switching between recipes based on detection of meat type&lt;/li&gt;
-&lt;li&gt;Local adjustment of brine based on
-&lt;img alt="Advanced_chip-tuning" src="../figures/advanced_chip-tuning.png"&gt;  &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Robot cell&lt;/strong&gt; solution&lt;/p&gt;
-&lt;ul&gt;
 &lt;li&gt;Local adjustment of brine based on&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Robot cell&lt;/strong&gt; for experimentation&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Advanced_chip-tuning" src="../images/advanced_chip-tuning.png"&gt;  &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Local injection of brine followed by weighing in order to determine local gain
-&lt;img alt="Local injection experiment" src="../figures/local_injection_experiment.png"&gt;    &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Robot cell&lt;/strong&gt; solution&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Same as Advanced "chip-tuning" &lt;/li&gt;
+&lt;li&gt;High flexibility and &lt;/li&gt;
+&lt;li&gt;Automatic cleaning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Robot cell&lt;/strong&gt; for experimentation, specifically determining local absorbtion properties&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Local injection of brine followed by weighing in order to determine local gain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Local injection experiment" src="../images/local_injection_experiment.png"&gt;    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Misc. additions&lt;ul&gt;
+&lt;li&gt;Monitoring of flow and detection of blocked needles&lt;/li&gt;
+&lt;li&gt;Avoiding brine injection into non-muscle areas e.g. fat and air pockets. Requires CT scanning or similar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Research possibilities&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Controlling procesparameters&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Neural network nonlinear predictive control&lt;a href="http://ieeexplore.ieee.org/abstract/document/7087381/"&gt;popular paper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Controlling procesparameters
+    %* Neural network nonlinear predictive control &lt;a href="http://ieeexplore.ieee.org/abstract/document/7087381/"&gt;popular paper&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Estimating volume/weight from 2D or 3D images&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="Closed-loop controller" src="figures/mss_controller_diagram.png"&gt;&lt;/p&gt;</content><category term="first"></category><category term="misc"></category></entry></feed>
+&lt;p&gt;&lt;img alt="Closed-loop controller" src="../images/mss_controller_diagram.png"&gt;&lt;/p&gt;</content><category term="brine"></category><category term="injection"></category></entry><entry><title>Stay abroad</title><link href="http://markpp.github.io/research-abroad.html" rel="alternate"></link><published>2017-01-23T17:49:00+01:00</published><updated>2017-02-23T17:49:00+01:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-01-23:/research-abroad.html</id><summary type="html">&lt;p&gt;Overview of relevant places to visit as part of the PhD&lt;/p&gt;</summary><content type="html">&lt;h3&gt;Candidate universities&lt;/h3&gt;
+&lt;p&gt;-&lt;/p&gt;
+&lt;h3&gt;Candidate companies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;SCOTT New Zealand&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Funding&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="travel"></category><category term="company"></category><category term="university"></category><category term="research"></category></entry><entry><title>Research areas</title><link href="http://markpp.github.io/research-areas.html" rel="alternate"></link><published>2017-01-23T17:49:00+01:00</published><updated>2017-02-23T17:49:00+01:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-01-23:/research-areas.html</id><summary type="html">&lt;p&gt;Overview of the research areas that are of relevance to my PhD&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Reinforcement learning&lt;/h2&gt;
+&lt;p&gt;Appropriate actions in a given state are learned from feedback in the form of rewards and penalties. Exploration and exploitation are the mechanisms for trying new actions and for xx, respectively.
+- Self-learning framework which can be applied to several similar robot control problems. &lt;a href="https://arxiv.org/abs/1312.5602"&gt;DeepMind, Playing Atari with Deep Reinforcement Learning&lt;/a&gt;&lt;a href="http://www.davidqiu.com:8888/research/nature14236.pdf"&gt;DeepMind, Human-level control through deep reinforcement learning&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Continuous(online) learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Continuously adjusting a trained model while in use, based on feedback.&lt;/li&gt;
+&lt;li&gt;Extending a pretrained model with new functionality, e.g. adding an additional class to a classifier without retraining using the original dataset.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Hybrid intelligence&lt;/h2&gt;
+&lt;h2&gt;Many of the tasks that must be automated are too challenging for current machine intelligence to consistently solve at a satisfactory level of performance. Hybrid intelligence where human intelligence is keept in the loop is thus a necessety for the forseable future. When applying hybrid intelligence there exisits two interaction patterns; active learning and hybrid interaction. In the former, human intelligence is only utilized when the machine isn't confident. In the latter both machine and human intelligence is involved in every case. Here the machine propose a solution that the human must accept, modify or reject. &lt;a href="https://medium.com/@clarecorthell/hybrid-artificial-intelligence-how-artificial-assistants-work-eefbafbd5334"&gt;Hybrid Intelligence: How Artificial Assistants Work&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Transfer learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Taking a model trained for one task and fine-tuning it for use in a related task.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="machine learning"></category><category term="deep learning"></category><category term="reinforcement learning"></category><category term="transfer learning"></category><category term="continuous learning"></category></entry></feed>
