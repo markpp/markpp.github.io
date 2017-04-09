@@ -74,18 +74,6 @@
   </div>
 </article>
 
-    {% if page.calendar %}
-<dl>
-    {% for vevent in events[page.slug] %}
-        <dt>{{ vevent.summary }}</dt>
-        <dd>{{ vevent.description|replace('\n\n', '<br>') }}</dd>
-        <dd>{{ vevent.dtstart }}</dd>
-        <dd>{{ vevent.dtend }}</dd>
-        <dd class="footer"><a href="{{ vevent.url }}">See more</a></dd>
-    {% endfor %}
-</dl>
-{% endif %}
-    
     <footer>
 <p>&copy; Mark Philip Philipsen </p>
 <p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
