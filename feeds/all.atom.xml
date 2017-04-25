@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Adaptive Slaugther Robots</title><link href="http://markpp.github.io/" rel="alternate"></link><link href="http://markpp.github.io/feeds/all.atom.xml" rel="self"></link><id>http://markpp.github.io/</id><updated>2017-02-23T17:49:00+01:00</updated><entry><title>Injection</title><link href="http://markpp.github.io/inject.html" rel="alternate"></link><published>2017-01-23T17:49:00+01:00</published><updated>2017-02-23T17:49:00+01:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-01-23:/inject.html</id><summary type="html">&lt;p&gt;Overview of the selection process for brine injection project&lt;/p&gt;</summary><content type="html">&lt;p&gt;Brine injection is selected as the basis for a "quick and dirty" project where an adaptive method will help achieve a more optimal addition of salt in particular. The project's duration confined to 3-4 month, this means that it is necessary to clearly deliminate the problem and make wide use of "hand held" solutions in order to quickly test the method.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Adaptive Slaugther Robots</title><link href="http://markpp.github.io/" rel="alternate"></link><link href="http://markpp.github.io/feeds/all.atom.xml" rel="self"></link><id>http://markpp.github.io/</id><updated>2017-02-23T17:49:00+01:00</updated><entry><title>Injection</title><link href="http://markpp.github.io/inject.html" rel="alternate"></link><published>2017-01-23T17:49:00+01:00</published><updated>2017-02-23T17:49:00+01:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-01-23:/inject.html</id><summary type="html">&lt;p&gt;Overview of the selection process for brine injection project&lt;/p&gt;</summary><content type="html">&lt;p&gt;Brine injection is selected as the basis for a "quick and dirty" project where an adaptive method will help achieve a more optimal addition of salt to meat products. The project's duration is confined to 3-4 month, this means that it is necessary to clearly deliminate the problem and make wide use of "hand held" solutions in order to reduce setup time and quickly test the adaptive method.&lt;/p&gt;
 &lt;h2&gt;Process description&lt;/h2&gt;
-&lt;p&gt;Brine is added to a wide range of meats before packaging in order to mature, tenderize and enhance flavor. The brine consists of a mix of water and salt, phosphate, nitrate and in some cases sugar or other types of flavoring. Salt has the effect of increases the solubility of proteins and thereby improves the meats ability to retain water. However, if the salt concentration gets too high, the effect is reversed and the muscle fibers shrink and proteins risk getting washed out. For the best results, the brine should be uniformly distributed in the meat. This can be achieved by administering the brine externally or by injecting it directly into the meat. The salt will then diffuse through out the meat and distribute evenly with time through chemical processes. Salt is able to diffuse at the most 0.5 cm. per day, so if the brine needs to defuse over long distances, it becomes very time intensive and impractical. The standard practice for quickly curing meat is injection of brine using a grid of needles. When using current injection systems alone, the results are not always satisfactory and the meat is subjected to additional treatments both before and after the injection of brine. The meat's ability to absorb the brine can be improved by hammering before injection, this extends the muscle fibers, which increase room for brine and improves the distribution. &lt;/p&gt;
-&lt;p&gt;A repport "Accelereret saltning med multistiksprøjtning" [2] from the running DMRI project, "Optimeret produktion af forædlede kødprodukter" investigates the possibilities for reducing the time needed to salt pructs using existing equipment. The process can be helped along by treating the meat mechanically. Advanced machinery exisits for both injection and mechanical treatment, but no single manufactura provides a complete state-of-the-art solution and slaughterhouses largely rely on older outdated machinery. The goal of that part of the project is to reduce the process to under one day(7 hours). &lt;/p&gt;
+&lt;p&gt;Brine is added to a wide range of meats before packaging in order to mature and tenderize the meat as well as enhance flavor. The brine consists of water and a mix of salt, phosphate, nitrate, sugar or flavoring. The central ingredient is the salt, which has the effect of increases the solubility of proteins and thereby improve the meats ability to retain water. However, if the salt concentration gets too high, the effect is reversed and the muscle fibers shrink and proteins risk getting washed out. For the best results, the brine should be uniformly distributed thorughout the meat. This can be achieved by administering the brine externally or by injecting it directly into the meat. The salt will then diffuse through the meat and distribute evenly, with time, through chemical processes. Salt is able to diffuse at the most 0.5 cm. per day, so if the brine needs to defuse over long distances, it becomes very time intensive and impractical for modern industrial processes. The standard practice for quickly curing meat is injection of brine using a grid of needles. When using current injection systems alone, the results are not always satisfactory and the meat is subjected to additional treatments both before and after the injection of brine. The meat's ability to absorb the brine can be improved by hammering before injection, this extends the muscle fibers, which increase room for brine and improves the distribution. Similarly, the diffusion of the injected brine along with additional absorbition can be achieved by post-injection mechanical treatment. [TODO] Write more about the post-injection treatment.&lt;/p&gt;
+&lt;p&gt;A rapport "Accelereret saltning med multistiksprøjtning" [2] from the running DMRI project, "Optimeret produktion af forædlede kødprodukter" investigates the possibilities for reducing the time needed to salt pructs using existing equipment. The process can be helped along by treating the meat mechanically. Advanced machinery exisits for both injection and mechanical treatment, but no single manufactura provides a complete state-of-the-art solution and slaughterhouses largely rely on older outdated machinery. The goal of that part of the project is to reduce the process to under one day(7 hours). &lt;/p&gt;
 &lt;p&gt;The process can be be very complex when the natural variation and the many physical and chemical variables are taken into account. The main physical variables are: 
 - Injection pattern
     * The denseness of the injection
@@ -58,61 +58,61 @@
 &lt;p&gt;Some of the leading products for mechanical preparation of meat before injection of brine are:&lt;/p&gt;
 &lt;h4&gt;STEAKER/PRESSES by Günther (DE)&lt;/h4&gt;
 &lt;h4&gt;MACMAX by Schröder (DE):&lt;/h4&gt;
-&lt;h5&gt;TwinHammer 5500&lt;/h5&gt;
+&lt;h4&gt;TwinHammer 5500 by METALQUIMIA&lt;/h4&gt;
 &lt;p&gt;Pre-massaging unit that stretch the muscle fibers, which increase the space around fibrils. Leads to a reduction in the time needed for tumbling after injection.
 &lt;a href="http://en.metalquimia.com/products/products-by-family/meat-pre-massaging/twinhammer-5500/"&gt;twinhammer&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Bladehammer 5500 by METALQUIMIA&lt;/h4&gt;
+&lt;p&gt;&lt;a href="http://en.metalquimia.com/products/products-by-family/meat-pre-massaging/bladehammer-5500/"&gt;bladehammer&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Brine injection&lt;/h3&gt;
 &lt;p&gt;In the meat industry, brine is most commonly added using machines with multiple injection needles, the number of needles typically ranges from 40 to 500 with a spacing of 12-25 mm. Correct adjustment of the injector has a large impact on the time needed for the salt to properly diffuse. [3]&lt;/p&gt;
 &lt;p&gt;New needles that are thinner and have more holes&lt;/p&gt;
 &lt;p&gt;SPRAY PLUS
 High pressure
 Too much pressure?&lt;/p&gt;
+&lt;h4&gt;IMAX 420 by Schröder (DE):&lt;/h4&gt;
+&lt;p&gt;Integrated weights that automatically controls and adapts the injection speed during operation.&lt;/p&gt;
+&lt;p&gt;Many and very thin needles as well as independent control of conveyorbelt, which allows for a very dense injection pattern&lt;/p&gt;
+&lt;p&gt;Individual needle damage and flow detection. &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.schroeder-maschinen.de/en/machines/injectors-imax.html"&gt;IMAX 420&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=UzfrEysbKYs"&gt;&lt;img alt="Schröder (DE)" src="../images/injection/IMAX_420.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;PI 750 DUO by Günther (DE)&lt;/h4&gt;
+&lt;p&gt;Spray Plus
+Traditionally, brine is injected using needles with a few holes that has a diameter above 1 mm and a low brine pressure of a few bars. With the spray plus system, Günther introduces a spray system where the needles have many holes with a small diameter and a very high brine pressure. This reuslts in very fine droplets that should distribute well in the meat. Because of the much improved distribution of brine, the drip loss is reduced significantly. &lt;/p&gt;
+&lt;p&gt;The classical low presure injection technique:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="classic_needle_1_2" src="../images/injection/classic_needle_1_2.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(1) Brine injection from the start, (2) Spraying continous as the needles descend&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="classic_needle_3_4" src="../images/injection/classic_needle_3_4.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(3) Needles reach the bottom and leaves pockets of brine, (4) As the needles are withdrawn, brine collects in the holes&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="classic_needle_5" src="../images/injection/classic_needle_5.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(5) As the needles leave the meat, brine will escape&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The new high pressure injection technique:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="spray_needle_1_2" src="../images/injection/spray_needle_1_2.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(1) Needles enters the meat without spraying brine, (2) needles continoue al the way to the bottom without spraying&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="spray_needle_3_4" src="../images/injection/spray_needle_3_4.png"&gt;\
+&lt;em&gt;(3) Brine is spayed using high pressure from all holes, (4) Needles are withdrawn without spraying brine&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The efficacy of the technology has not been verified independently yet&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.guenther-maschinenbau.de/en/g-products/pih-300-2-pih-600-4/"&gt;PI 750 DUO&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;M3 byFOMACO (DK)&lt;/h4&gt;
+&lt;p&gt;Inline Weight Controller (IWC) constantly monitors the injection quantity and corrects the settings in case of irregularities.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.fomaco.com/meat/machines/the-fomaco-m3"&gt;M3&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Movistick Plus 5500 by METALQUIMIA&lt;/h5&gt;
+&lt;p&gt;&lt;a href="http://en.metalquimia.com/products/products-by-family/spray-meat-injectors-plus/movistick-plus-5500/"&gt;Movistick Plus 5500&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;MOVIPLUS 4.0 by METALQUIMIA&lt;/h5&gt;
+&lt;p&gt;&lt;a href="http://en.metalquimia.com/products/products-by-family/meat-injectors-moviplus/moviplus-version-40/"&gt;MOVIPLUS 4.0&lt;/a&gt;
+Up &amp;amp; Down system for regulating the depth the needles will penetrate in order to avoid injecting fat and skin&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=8nvVhe9YZHw"&gt;&lt;img alt="up_down" src="../images/injection/up_down.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Other manufacturas include GAROS (SE), Marel (IS)&lt;/p&gt;
 &lt;h3&gt;Tumbling&lt;/h3&gt;
 &lt;p&gt;The diffusion of salt is helped along by the use of mechanical tumbling, which quickly can distribute the salt up to 2 cm. [3]
 The meat is gently tumbled, resulting in a massage of the meat that helps drain unabsorbed brine and thereby avoiding pockets of brine as well as closing up the holes that are left from the injection. &lt;/p&gt;
 &lt;h4&gt;DRYBINDER by METALQUIMIA (ES)&lt;/h4&gt;
 &lt;h4&gt;DRIPPING TUNNEL by Metalbud Nowicki (PL)&lt;/h4&gt;
 &lt;h3&gt;Machine manufacturers/integrators&lt;/h3&gt;
-&lt;h4&gt;Schröder (DE):&lt;/h4&gt;
-&lt;p&gt;Injector:
-Integrated weights that automatically controls and adapts the injection speed during operation.&lt;/p&gt;
-&lt;p&gt;Many and very thin needles as well as independent control of conveyorbelt, which allows for a very dense injection pattern&lt;/p&gt;
-&lt;p&gt;Individual needle damage and flow detection. &lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.schroeder-maschinen.de/en/machines/injectors-imax.html"&gt;IMAX 420&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=UzfrEysbKYs"&gt;&lt;img alt="Schröder (DE)" src="../images/injection/IMAX_420.png"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;Günther (DE)&lt;/h4&gt;
-&lt;p&gt;Spray Plus
-Traditionally, brine is injected using needles with a few holes that has a diameter above 1 mm and a low brine pressure of a few bars. With the spray plus system, Günther introduces a spray system where the needles have many holes with a small diameter and a very high brine pressure. This reuslts in very fine droplets that should distribute well in the meat. Because of the much improved distribution of brine, the drip loss is reduced significantly. &lt;/p&gt;
-&lt;p&gt;The classical low presure injection technique:
-&lt;img alt="classic_needle_1_2" src="../images/injection/classic_needle_1_2.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;(1) Brine injection from the start, (2) Spraying continous as the needles descend&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="classic_needle_3_4" src="../images/injection/classic_needle_3_4.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;(3) Needles reach the bottom and leaves pockets of brine, (4) As the needles are withdrawn, brine collects in the holes&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="classic_needle_5" src="../images/injection/classic_needle_5.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;(5) As the needles leave the meat, brine will escape&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The new high pressure injection technique:
-&lt;img alt="spray_needle_1_2" src="../images/injection/spray_needle_1_2.png"&gt;
-&lt;em&gt;(1) Needles enters the meat without spraying brine, (2) needles continoue al the way to the bottom without spraying&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="spray_needle_3_4" src="../images/injection/spray_needle_3_4.png"&gt;
-&lt;em&gt;(3) Brine is spayed using high pressure from all holes, (4) Needles are withdrawn without spraying brine&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The efficacy of the technology has not been verified independently yet&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.guenther-maschinenbau.de/en/g-products/pih-300-2-pih-600-4/"&gt;PI 750 DUO&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;FOMACO (DK)&lt;/h4&gt;
-&lt;p&gt;Inline Weight Controller (IWC) constantly monitors the injection quantity and corrects the settings in case of irregularities.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.fomaco.com/meat/machines/the-fomaco-m3"&gt;M3&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Metalbud Nowicki (PL)&lt;/h4&gt;
 &lt;h4&gt;METALQUIMIA (ES)&lt;/h4&gt;
-&lt;h5&gt;Bladehammer 5500&lt;/h5&gt;
-&lt;p&gt;&lt;a href="http://en.metalquimia.com/products/products-by-family/meat-pre-massaging/bladehammer-5500/"&gt;bladehammer&lt;/a&gt;&lt;/p&gt;
-&lt;h5&gt;Movistick Plus 5500&lt;/h5&gt;
-&lt;p&gt;&lt;a href="http://en.metalquimia.com/products/products-by-family/spray-meat-injectors-plus/movistick-plus-5500/"&gt;Movistick Plus 5500&lt;/a&gt;&lt;/p&gt;
-&lt;h5&gt;MOVIPLUS 4.0&lt;/h5&gt;
-&lt;p&gt;&lt;a href="http://en.metalquimia.com/products/products-by-family/meat-injectors-moviplus/moviplus-version-40/"&gt;MOVIPLUS 4.0&lt;/a&gt;
-Up &amp;amp; Down system for regulating the depth the needles will penetrate in order to avoid injecting fat and skin&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=8nvVhe9YZHw"&gt;&lt;img alt="up_down" src="../images/injection/up_down.png"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Other manufacturas include GAROS (SE), Marel (IS)&lt;/p&gt;
 &lt;h3&gt;Process control research&lt;/h3&gt;
 &lt;p&gt;(Determination of Optimal Process Parameters to Prepare Licorice Extract Micro-particles Using Artificial Neural Network Based Particle Swarm Optimization)[https://github.com/markpp/Paper-notes/blob/master/process%20control/zhang2016determination.md] resume(ongoing)&lt;/p&gt;
+&lt;p&gt;(Hybrid fuzzy logic and pid controller based ph neutralization pilot plant)[https://github.com/markpp/Paper-notes/blob/master/process%20control/naseer2013hybrid.md] resume(ongoing)&lt;/p&gt;
 &lt;h2&gt;Possible improvements&lt;/h2&gt;
 &lt;p&gt;Here is a list of features that has the potential to improve speed, quality and knowledge of the product in general. Some of the features already exist in available machines.&lt;/p&gt;
 &lt;ul&gt;
