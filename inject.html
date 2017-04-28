@@ -85,32 +85,81 @@
 
 
   <div>
-    <p>Brine injection is selected as the basis for a "quick and dirty" project where an adaptive method will help achieve a more optimal addition of salt to meat products. The project's duration is confined to 3-4 month, this means that it is necessary to clearly deliminate the problem and make wide use of "hand held" solutions in order to reduce setup time and quickly test the adaptive method.</p>
-<h2>Process description</h2>
-<p>Brine is added to a wide range of meats before packaging in order to mature and tenderize the meat as well as enhance flavor. The brine consists of water and a mix of salt, phosphate, nitrate, sugar or flavoring. The central ingredient is the salt, which has the effect of increases the solubility of proteins and thereby improve the meats ability to retain water. However, if the salt concentration gets too high, the effect is reversed and the muscle fibers shrink and proteins risk getting washed out. For the best results, the brine should be uniformly distributed thorughout the meat. This can be achieved by administering the brine externally or by injecting it directly into the meat. The salt will then diffuse through the meat and distribute evenly, with time, through chemical processes. Salt is able to diffuse at the most 0.5 cm. per day, so if the brine needs to defuse over long distances, it becomes very time intensive and impractical for modern industrial processes. The standard practice for quickly curing meat is injection of brine using a grid of needles. When using current injection systems alone, the results are not always satisfactory and the meat is subjected to additional treatments both before and after the injection of brine. The meat's ability to absorb the brine can be improved by hammering before injection, this extends the muscle fibers, which increase room for brine and improves the distribution. Similarly, the diffusion of the injected brine along with additional absorbition can be achieved by post-injection mechanical treatment. [TODO] Write more about the post-injection treatment.</p>
-<p>A rapport "Accelereret saltning med multistiksprøjtning" [2] from the running DMRI project, "Optimeret produktion af forædlede kødprodukter" investigates the possibilities for reducing the time needed to salt pructs using existing equipment. The process can be helped along by treating the meat mechanically. Advanced machinery exisits for both injection and mechanical treatment, but no single manufactura provides a complete state-of-the-art solution and slaughterhouses largely rely on older outdated machinery. The goal of that part of the project is to reduce the process to under one day(7 hours). </p>
-<p>The process can be be very complex when the natural variation and the many physical and chemical variables are taken into account. The main physical variables are: 
-- Injection pattern
-    * The denseness of the injection
-    * The strategy for injecting brine, e.g. continously, when stationary, multiple times
-- Meat texture
-    * The xxx
-- State of muscle fibers
-    * The degree to which the fibers are prepared to absorbe the brine
-- Brine injection pressure
-- Injection speed/time
-- Pressure at the point of injection
-    * Depend on the flow through the other holes in the needle(s)
-    * Holes maybe be blocked</p>
-<p>Some of the most important chemical variables are:</p>
+    <h1>Adaptive brine injection</h1>
+<p>Brine injection is selected as the basis for a "quick and dirty" project where an adaptive method will help achieve a more optimal addition of salt to meat products. The project's duration is confined to 3-4 month, this means that it is necessary to clearly deliminate the problem and make wide use of "hand held" solutions in order to reduce setup time and quickly test the adaptive method. The adaptiveness lies in measuring the input or the output and controlling the process parameters accordingly.</p>
+<h1>Table of contents</h1>
+<ul>
+<li><a href="#adaptive-brine-injection">Adaptive brine injection</a></li>
+<li><a href="#process-description">Process description</a></li>
+<li><a href="#initial-experiment">Initial experiment</a></li>
+<li><a href="#state-of-the-art">State-of-the-art</a><ul>
+<li><a href="#meat-preparation">Meat preparation</a></li>
+<li><a href="#brine-injection">Brine injection</a></li>
+<li><a href="#tumbling">Tumbling</a></li>
+<li><a href="#machine-manufacturers">Machine manufacturers</a></li>
+<li><a href="#process-control-research">Process control research</a></li>
+</ul>
+</li>
+<li><a href="#possible-improvements">Possible improvements</a></li>
+<li><a href="#project-choices">Project choices</a><ul>
+<li><a href="#">Measuring quality of injection</a></li>
+</ul>
+</li>
+</ul>
+<h1>Process description</h1>
+<p>Brine is added to a wide range of meats before packaging in order to mature and tenderize the meat as well as enhance flavor. The brine consists of water and a mix of salt, phosphate, nitrate, sugar or flavoring. The central ingredient is the salt, which has the effect of increases the solubility of proteins and thereby improve the meats ability to retain water. However, if the salt concentration gets too high, the effect is reversed and the muscle fibers shrink and proteins risk getting washed out. For the best results, the brine should be uniformly distributed throughout the meat. This can be achieved by administering the brine externally or by injecting it directly into the meat. The salt will then diffuse through the meat and distribute evenly, with time, through chemical processes. Salt is able to diffuse at the most 0.5 cm. per day, so if the brine needs to defuse over long distances, it becomes very time intensive and impractical for modern industrial processes.
+The standard practice for quickly curing meat is injection of brine using a grid of needles. Even modern injection systems the results are not always satisfactory and the meat is subjected to additional treatments. This extra treatment can happen both before and after the injection of brine. For instance, meat's ability to absorb brine can be improved by hammering before injection, this extends the muscle fibers, which increase room for brine and help achieve a more even distribution. Similarly, accelerated and improved diffusion of the injected brine along with additional absorption can be achieved by further mechanical treatment post-injection. The meat is e.g. massaged, which helps drain pockets of brine and close holes left by the injection needles.</p>
+<p>The rapport "Accelereret saltning med multistiksprøjtning" [2] from the the DMRI project; "Optimeret produktion af forædlede kødprodukter" investigates the possibilities for reducing the time needed to salt products using existing equipment. The process can be helped along by treating the meat mechanically. Advanced machinery exists for both injection and mechanical treatment, but no single manufacturer provides a complete state-of-the-art solution and slaughterhouses largely rely on older outdated machinery. The goal of part of the project is to reduce the time usage of the process to under one work day(7 hours).</p>
+<p>The salting process can be be very complex when taking the natural variation of the meat and the process variables into account.</p>
+<p>The main process variables are:</p>
+<ul>
+<li>Pre-injection mechanical preparation<ul>
+<li>The degree to which the muscle fibers are stretched/loosened/opened</li>
+</ul>
+</li>
+<li>Injection pattern<ul>
+<li>Denseness of injection, i.e. the spacing between injection holes</li>
+<li>Strategy for injecting brine, e.g. continuously, on the down stroke, when reaching the bottom, etc.</li>
+</ul>
+</li>
+<li>Brine injection pressure<ul>
+<li>Brine pressure through the individual needle holes depends on the flow through other holes, which maybe be blocked or completly uncovered</li>
+</ul>
+</li>
+<li>Injection speed/time<ul>
+<li>Duration injecting brine into the meat</li>
+</ul>
+</li>
+<li>Post-injection mechanical treatment<ul>
+<li>[Time spend tumbling]</li>
+</ul>
+</li>
+</ul>
+<p>Physical properties of the meat that may influence the salting:</p>
+<ul>
+<li>Meat texture<ul>
+<li>[Hardness and viscosity tells us something about the room around muscle fibers and thereby the meats ability to absorb the brine] </li>
+<li>State of muscle fibers e.i. the degree to which the fibers are prepared to absorb the brine</li>
+</ul>
+</li>
+<li>Size and shape<ul>
+<li>Especially the height of the meat</li>
+</ul>
+</li>
+<li>Composition<ul>
+<li>Bone, skin, fat and connective tissue</li>
+</ul>
+</li>
+</ul>
+<p>The chemical composition of the brine solution and the chemical properties of the meat effect the salting. The most important chemical variables are:</p>
 <ul>
 <li>Salt concentration<ul>
-<li>Water retention increases with the concentration of salt </li>
+<li>Water retention increases with the concentration of salt</li>
 <li>Very high salt concentrations reverses the effect</li>
 </ul>
 </li>
 <li>Type of salt<ul>
-<li>NaCl is significantly better than KCl at improving water retention</li>
+<li><em>NaCl</em> is significantly better than <em>KCl</em> at increasing water retention</li>
 </ul>
 </li>
 <li>Sugar concentration<ul>
@@ -122,8 +171,8 @@
 </ul>
 </li>
 <li>pH<ul>
-<li>pH decides which ion, Na+ or Cl-, plays the primary role in increasing water retention</li>
-<li>A pH value around 6 has shown to lead to optimal water retention for NaCl</li>
+<li>pH decides which ion, <em>Na+</em> or <em>Cl-</em>, plays the primary role in increasing water retention</li>
+<li>A pH value around 6 has shown to lead to optimal water retention when using <em>NaCl</em></li>
 </ul>
 </li>
 <li>Temperature<ul>
@@ -132,39 +181,35 @@
 </ul>
 </li>
 <li>Type of meat<ul>
-<li>the amount of protein and the ratios between protein types, e.g. intracellular(soluble) and extracellular(non-soluble), differs between cuts</li>
-<li>The pH differs between cuts, e.g. pork shoulder has a much higher pH than loin</li>
+<li>Amount of protein and the ratios between protein types, e.g. intracellular(soluble) and extracellular(non-soluble), has an effect on the meats ability to retain water</li>
+<li>pH difference between cuts , e.g. pork shoulder has a much higher pH than pork loin</li>
 </ul>
 </li>
 </ul>
-<h2>Initial experiment</h2>
+<h1>Initial experiment</h1>
 <p>An initial experiment was conducted in order to investigate the effect of the two primary process parameters; brine pressure and injection speed, as well as determine the possibilities for visually measuring the gain using 3D sensing. The details of the experiment are described in <a href="https://docs.google.com/document/d/1raAamsBv-Zgsb5480L5EoHYvCk8Xo8ZGO3J60A4G6CI">multistiksprøjte eksperiment</a>.</p>
-<h2>State-of-the-art</h2>
-<h3>Meat preparation</h3>
+<h1>State-of-the-art</h1>
+<h2>Meat preparation</h2>
 <p>Some of the leading products for mechanical preparation of meat before injection of brine are:</p>
-<h4>STEAKER/PRESSES by Günther (DE)</h4>
-<h4>MACMAX by Schröder (DE):</h4>
-<h4>TwinHammer 5500 by METALQUIMIA</h4>
+<h3>STEAKER/PRESSES by Günther (DE)</h3>
+<h3>MAX by Schröder (DE)</h3>
+<p>Massages the meat in a temperature controlled environment, with or without vacuum.</p>
+<h3>TwinHammer 5500 by METALQUIMIA</h3>
 <p>Pre-massaging unit that stretch the muscle fibers, which increase the space around fibrils. Leads to a reduction in the time needed for tumbling after injection.
 <a href="http://en.metalquimia.com/products/products-by-family/meat-pre-massaging/twinhammer-5500/">twinhammer</a></p>
-<h4>Bladehammer 5500 by METALQUIMIA</h4>
+<h3>Bladehammer 5500 by METALQUIMIA</h3>
 <p><a href="http://en.metalquimia.com/products/products-by-family/meat-pre-massaging/bladehammer-5500/">bladehammer</a></p>
-<h3>Brine injection</h3>
-<p>In the meat industry, brine is most commonly added using machines with multiple injection needles, the number of needles typically ranges from 40 to 500 with a spacing of 12-25 mm. Correct adjustment of the injector has a large impact on the time needed for the salt to properly diffuse. [3]</p>
-<p>New needles that are thinner and have more holes</p>
-<p>SPRAY PLUS
-High pressure
-Too much pressure?</p>
-<h4>IMAX 420 by Schröder (DE):</h4>
-<p>Integrated weights that automatically controls and adapts the injection speed during operation.</p>
-<p>Many and very thin needles as well as independent control of conveyorbelt, which allows for a very dense injection pattern</p>
-<p>Individual needle damage and flow detection. </p>
+<h2>Brine injection</h2>
+<p>In the meat industry, brine is most commonly added using machines with multiple injection needles, the number of needles typically ranges from 40 to 500 with a spacing of 12-25 mm. With the trend going towards many thin needles with a high number of small holes combined with high pressure. </p>
+<p>Correct adjustment of the injector has a large impact on the time needed for the salt to properly diffuse. [3]</p>
+<h3>IMAX 420 by Schröder (DE):</h3>
+<p>Schröder offers integrated weights that automatically control and adapt the injection speed during operation. They also offer individual needle damage and flow detection. Their injection system rely on many and very thin needles as well as independent control of conveyor belt, which allows for a very dense injection pattern</p>
 <p><a href="http://www.schroeder-maschinen.de/en/machines/injectors-imax.html">IMAX 420</a></p>
 <p><a href="https://www.youtube.com/watch?v=UzfrEysbKYs"><img alt="Schröder (DE)" src="../images/injection/IMAX_420.png"></a></p>
-<h4>PI 750 DUO by Günther (DE)</h4>
+<h3>PI 750 DUO by Günther (DE)</h3>
 <p>Spray Plus
-Traditionally, brine is injected using needles with a few holes that has a diameter above 1 mm and a low brine pressure of a few bars. With the spray plus system, Günther introduces a spray system where the needles have many holes with a small diameter and a very high brine pressure. This reuslts in very fine droplets that should distribute well in the meat. Because of the much improved distribution of brine, the drip loss is reduced significantly. </p>
-<p>The classical low presure injection technique:</p>
+Traditionally, brine is injected using needles with a few holes that has a diameter above 1 mm and a low brine pressure of a few bars. With the spray plus system, Günther introduces a spray system where the needles have many holes with a small diameter and a very high brine pressure. This results in very fine droplets that should distribute well in the meat. Because of the much improved distribution of brine, the drip loss is reduced significantly.</p>
+<p>The classical low pressure injection technique:</p>
 <p><img alt="classic_needle_1_2" src="../images/injection/classic_needle_1_2.png"></p>
 <p><em>(1) Brine injection from the start, (2) Spraying continous as the needles descend</em></p>
 <p><img alt="classic_needle_3_4" src="../images/injection/classic_needle_3_4.png"></p>
@@ -173,58 +218,163 @@ Traditionally, brine is injected using needles with a few holes that has a diame
 <p><em>(5) As the needles leave the meat, brine will escape</em></p>
 <p>The new high pressure injection technique:</p>
 <p><img alt="spray_needle_1_2" src="../images/injection/spray_needle_1_2.png"></p>
-<p><em>(1) Needles enters the meat without spraying brine, (2) needles continoue al the way to the bottom without spraying</em></p>
+<p><em>(1) Needles enters the meat without spraying brine, (2) needles continue al the way to the bottom without spraying</em></p>
 <p><img alt="spray_needle_3_4" src="../images/injection/spray_needle_3_4.png">\
 <em>(3) Brine is spayed using high pressure from all holes, (4) Needles are withdrawn without spraying brine</em></p>
 <p>The efficacy of the technology has not been verified independently yet</p>
 <p><a href="http://www.guenther-maschinenbau.de/en/g-products/pih-300-2-pih-600-4/">PI 750 DUO</a></p>
-<h4>M3 byFOMACO (DK)</h4>
+<h3>M3 by FOMACO (DK)</h3>
 <p>Inline Weight Controller (IWC) constantly monitors the injection quantity and corrects the settings in case of irregularities.</p>
 <p><a href="http://www.fomaco.com/meat/machines/the-fomaco-m3">M3</a></p>
-<h5>Movistick Plus 5500 by METALQUIMIA</h5>
+<h3>Movistick Plus 5500 by METALQUIMIA</h3>
 <p><a href="http://en.metalquimia.com/products/products-by-family/spray-meat-injectors-plus/movistick-plus-5500/">Movistick Plus 5500</a></p>
-<h5>MOVIPLUS 4.0 by METALQUIMIA</h5>
+<h3>MOVIPLUS 4.0 by METALQUIMIA</h3>
 <p><a href="http://en.metalquimia.com/products/products-by-family/meat-injectors-moviplus/moviplus-version-40/">MOVIPLUS 4.0</a>
 Up &amp; Down system for regulating the depth the needles will penetrate in order to avoid injecting fat and skin</p>
 <p><a href="https://www.youtube.com/watch?v=8nvVhe9YZHw"><img alt="up_down" src="../images/injection/up_down.png"></a></p>
-<p>Other manufacturas include GAROS (SE), Marel (IS)</p>
-<h3>Tumbling</h3>
+<h2>Tumbling</h2>
 <p>The diffusion of salt is helped along by the use of mechanical tumbling, which quickly can distribute the salt up to 2 cm. [3]
-The meat is gently tumbled, resulting in a massage of the meat that helps drain unabsorbed brine and thereby avoiding pockets of brine as well as closing up the holes that are left from the injection. </p>
-<h4>DRYBINDER by METALQUIMIA (ES)</h4>
-<h4>DRIPPING TUNNEL by Metalbud Nowicki (PL)</h4>
-<h3>Machine manufacturers/integrators</h3>
-<h4>Metalbud Nowicki (PL)</h4>
-<h4>METALQUIMIA (ES)</h4>
-<h3>Process control research</h3>
+The meat is gently tumbled, resulting in a massage of the meat that helps drain unabsorbed brine and thereby avoiding pockets of brine as well as closing up the holes that are left from the injection.</p>
+<h3>DRYBINDER by METALQUIMIA (ES)</h3>
+<h3>DRIPPING TUNNEL by Metalbud Nowicki (PL)</h3>
+<h2>Machine manufacturers</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th align="center">Country</th>
+<th align="center">Pre-injection</th>
+<th align="center">Injection</th>
+<th align="center">Post-injection</th>
+<th align="right">Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metalbud Nowicki</td>
+<td align="center">Poland</td>
+<td align="center">:heavy_check_mark:</td>
+<td align="center">:heavy_check_mark:</td>
+<td align="center">:heavy_check_mark:</td>
+<td align="right"><a href="http://en.metalquimia.com/">homepage</a></td>
+</tr>
+<tr>
+<td>METALQUIMIA</td>
+<td align="center">Spain</td>
+<td align="center">:heavy_check_mark:</td>
+<td align="center">:heavy_check_mark:</td>
+<td align="center">:heavy_check_mark:</td>
+<td align="right"><a href="http://en.metalquimia.com/">homepage</a></td>
+</tr>
+<tr>
+<td>Marel</td>
+<td align="center">Island</td>
+<td align="center"></td>
+<td align="center">:heavy_check_mark:</td>
+<td align="center"></td>
+<td align="right"><a href="http://marel.com/">homepage</a></td>
+</tr>
+<tr>
+<td>GAROS</td>
+<td align="center">Sweden</td>
+<td align="center"></td>
+<td align="center">:heavy_check_mark:</td>
+<td align="center">:heavy_check_mark:</td>
+<td align="right"><a href="http://www.garos.net/">homepage</a></td>
+</tr>
+<tr>
+<td>FOMACO</td>
+<td align="center">Denmark</td>
+<td align="center"></td>
+<td align="center">:heavy_check_mark:</td>
+<td align="center"></td>
+<td align="right"><a href="http://www.fomaco.com/">homepage</a></td>
+</tr>
+<tr>
+<td>Günther</td>
+<td align="center">Germany</td>
+<td align="center">:heavy_check_mark:</td>
+<td align="center">:heavy_check_mark:</td>
+<td align="center">:heavy_check_mark:</td>
+<td align="right"><a href="http://www.guenther-maschinenbau.de/en/">homepage</a></td>
+</tr>
+<tr>
+<td>Schröder</td>
+<td align="center">Germany</td>
+<td align="center">:heavy_check_mark:</td>
+<td align="center">:heavy_check_mark:</td>
+<td align="center">:heavy_check_mark:</td>
+<td align="right"><a href="http://www.schroeder-maschinen.de/en/home.html">homepage</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Process control research</h2>
 <p>(Determination of Optimal Process Parameters to Prepare Licorice Extract Micro-particles Using Artificial Neural Network Based Particle Swarm Optimization)[https://github.com/markpp/Paper-notes/blob/master/process%20control/zhang2016determination.md] resume(ongoing)</p>
 <p>(Hybrid fuzzy logic and pid controller based ph neutralization pilot plant)[https://github.com/markpp/Paper-notes/blob/master/process%20control/naseer2013hybrid.md] resume(ongoing)</p>
-<h2>Possible improvements</h2>
-<p>Here is a list of features that has the potential to improve speed, quality and knowledge of the product in general. Some of the features already exist in available machines.</p>
+<h1>Possible improvements</h1>
+<p>Here is a list of features that has the potential to improve the process, quality and knowledge of the product in general. Some of the features already exist in machines currently on the market.</p>
 <ul>
-<li>Speed<ul>
-<li>Increased injection cadence</li>
+<li>Process<ul>
+<li>Increased injection cadence could lead to high throughput</li>
+<li>Flexible injector that is easierly integrating in the production line</li>
+<li>Injection of in-bone meat</li>
+<li>Reducing the number of steps/machines required in to achieve the same result</li>
+<li>Individualized robotic pre-massaging</li>
 </ul>
 </li>
 <li>Quality<ul>
 <li>Adjustable injection depth</li>
 <li>Flow monitoring</li>
 <li>Finer injection patterns without needing more and tighter packed needles</li>
-<li>Advanced injection patterns</li>
+<li>Advanced injection strategies</li>
 <li>Avoiding areas with bone or non muscle tissue</li>
-<li>Avoid local extreeme concentrations of salt</li>
+<li>Avoid reaching extreme local concentrations of salt</li>
+<li>Adapt injection to individual and local variation</li>
+<li>Optimal injection wrt. to fiber orientation</li>
 </ul>
 </li>
-<li>Knowledge</li>
+<li>Knowledge<ul>
+<li>Does the hardness of meat tell something about the ability to absorb brine</li>
 </ul>
-<p>To text:
-- Injection into meat that contain bones, areas of fat or cartilage
-    * Meat that contain bones will break needles and pockets of brine can form around the bone
-    * Areas with concentrations of fat or other non-meat tissues should not be injected with brine
-- Achieving a uniform distribution of brine quickly
-    * Multiple process steps and a lot of time is required to insure a satisfactory result
-    * Individual and local differences in meat's abilities to absorb the brine are not taken into account</p>
-<h3>Measuring quality of injection</h3>
+</li>
+</ul>
+<p>Ideas:
+- Investigate the parameter space</p>
+<ul>
+<li>
+<p>For each type of meat run experiments to find optimal control parameters based on measurements of the result</p>
+<ul>
+<li>Simple investigation of the individual parameters or grid search for also investigating interactions</li>
+<li>Classifier learns the correlation and predicts result</li>
+</ul>
+</li>
+<li>
+<p>Use ML to predict the optimal process parameters for the individual pieces of meat or even the local area of the meat</p>
+<ul>
+<li>Is it possible to find features that allow for to capture the variation in induvidual pieces of meats?</li>
+</ul>
+</li>
+</ul>
+<p>(Learning to learn by gradient descent by gradient descent)[https://arxiv.org/abs/1606.04474]</p>
+<ul>
+<li>
+<p>Estimating volume/weight from 2D or 3D images</p>
+</li>
+<li>
+<p>Process optimization</p>
+<ul>
+<li>Optimal preparation of meat for uniform salt distribution</li>
+<li>Optimal injection for uniform salt distribution</li>
+<li>Optimal post injection processing</li>
+</ul>
+</li>
+<li>
+<p>PID control of process parameters</p>
+</li>
+</ul>
+<p><img alt="Closed-loop controller" src="../images/injection/mss_controller_diagram.png"></p>
+<h1>Project choices</h1>
+<h2>Measuring quality of salting</h2>
 <p>In order to do optimization a method for determining the quality of the salting is necessary.</p>
 <ul>
 <li>CT scanning, use contrast fluid if necessary</li>
@@ -232,47 +382,16 @@ The meat is gently tumbled, resulting in a massage of the meat that helps drain 
 <li>Injection of salt-meter electrodes to sample salinity</li>
 <li>Local increase in weight/volume</li>
 <li>Drip loss/non-absorbed brine</li>
+<li>Measure firmness -&gt; texture <a href="[link](http://www.shimadzu.com/an/industry/foodbeverages/n9j25k00000d138f.html)">4</a></li>
 <li>(Uniform external color change)</li>
 <li>(Firmness of meat)</li>
 </ul>
 <p>Measuring salt content:
 <a href="https://www.alibaba.com/product-detail/High-quality-RHS-28ATC-0-28_60393393403.html">Salt in brine</a> and <a href="https://qasupplies.com/ssx-210-salt-meter/">Salt in meat</a></p>
-<h2>Project possibilities</h2>
-<ul>
-<li>
-<p>Process optimization</p>
-<ul>
-<li>Optimal preparation of meat for uniform salt distribution<ul>
-<li>Hammer/massage meat</li>
-</ul>
-</li>
-<li>Optimal injection for uniform salt distribution<ul>
-<li>Optimal injection compared to fiber orientation</li>
-</ul>
-</li>
-<li>Optimal post injection processing</li>
-</ul>
-</li>
-<li>
-<p>Controlling process parameters</p>
-</li>
-</ul>
-<p><img alt="Closed-loop controller" src="../images/injection/mss_controller_diagram.png"></p>
-<p>Ideas:
-- For each type of meat run experiments to explore the parameter space to find optimal control parameters
-    * Simple investigation of the individual parameters or gridsearch for also investigating interactions
-    * Classifier learns the correlation and predicts result</p>
-<ul>
-<li>Use ML to predict the optimal process parameters for the individual pieces of meat or even the local area of the meat<ul>
-<li>Is it possible to find features that allow us to distiguish meats?</li>
-</ul>
-</li>
-</ul>
-<p>(Learning to learn by gradient descent by gradient descent)[https://arxiv.org/abs/1606.04474]</p>
-<ul>
-<li>Estimating volume/weight from 2D or 3D images</li>
-</ul>
-<h2>Project directions</h2>
+<h2>Platform</h2>
+<p>There are two platforms that the project could potentially be based on. The first, is the type of dedicated machine that is currently used in the production out in the slaughterhouses. The alternativ is mounting needles on a industrial robot arm, which atleast initially is thought of as an experimentation platform.</p>
+<h3>Dedicated injector</h3>
+<p>Industrial multi-injectors have roughly looked the samefor half a century. A large box build around a conveyor belt with rows of injection needles that are moved up and down while the conveyor belts moves the meat forward. An example, although of a very old standard, is available to be used and modified for this project. Depending on the ambitioness of the project, the machine needs to under extensive reconstruction.</p>
 <p><strong>Basic "chip-tuning"</strong> focused on existing medium-low tier machines
     * Automation of process parameters using feedback from weighing before and after injection</p>
 <p><img alt="Basic_chip-tuning" src="../images/injection/basic_chip-tuning.png">  </p>
@@ -283,13 +402,18 @@ The meat is gently tumbled, resulting in a massage of the meat that helps drain 
 </ul>
 </li>
 </ul>
-<p><img alt="Advanced_chip-tuning" src="../images/injection/advanced_chip-tuning.png">  </p>
+<p><img alt="Advanced_chip-tuning" src="../images/injection/advanced_chip-tuning.png"> </p>
+<h3>Robot cell injector</h3>
 <ul>
-<li><strong>Robot cell</strong> for experimentation, specifically determining local absorption properties<ul>
+<li>
+<p><strong>Robot cell</strong> for experimentation, specifically determining local absorption properties</p>
+<ul>
 <li>Local injection of brine followed by weighing in order to determine local gain</li>
 </ul>
 </li>
-<li><strong>Robot cell</strong> solution<ul>
+<li>
+<p><strong>Robot cell</strong> solution</p>
+<ul>
 <li>Highly customized injection patterns</li>
 <li>High flexibility in application</li>
 <li>Automatic cleaning</li>
@@ -297,14 +421,6 @@ The meat is gently tumbled, resulting in a massage of the meat that helps drain 
 </li>
 </ul>
 <p><img alt="Local injection experiment" src="../images/injection/local_injection_experiment.png"></p>
-<ul>
-<li>Misc. additions<ul>
-<li>Monitoring of flow and detection of blocked needles</li>
-<li>Avoiding brine injection into non-muscle areas e.g. fat and air pockets. Requires CT scanning or similar.</li>
-<li>Robotic pre-massaging of meat in order to improve </li>
-</ul>
-</li>
-</ul>
 <p>[1]: DMRI report 2014: Optimeret produktion af forædlede kødprodukter, Tomas Jacobsen</p>
 <p>[2]: DMRI report 2017: Optimeret produktion af forædlede kødprodukter - Accelereret saltning med multistiksprøjtning, Mikael Bülow Pedersen</p>
 <p>[3]: Bøgh-Sørensen, L. &amp; Zeuthen, P. (2002) Konserveringsteknik bind 2, 2. udgave. DSR Forlag.</p>
