@@ -22,22 +22,22 @@
 
 
 <meta name="author" content="Mark Philip Philipsen" />
-<meta name="description" content="Description of project selection process" />
-<meta name="keywords" content="project rating">
+<meta name="description" content="Notes on ACMP project" />
+<meta name="keywords" content="project">
 <meta property="og:site_name" content="Adaptive Slaugther Robots"/>
-<meta property="og:title" content="Project selection"/>
-<meta property="og:description" content="Description of project selection process"/>
+<meta property="og:title" content="Augmented Cellular Meat Production"/>
+<meta property="og:description" content="Notes on ACMP project"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="http://markpp.github.io/drafts/project-selection.html"/>
+<meta property="og:url" content="http://markpp.github.io/drafts/augmented_cellular_meat_production.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2017-01-23 17:49:00+01:00"/>
 <meta property="article:modified_time" content="2017-02-23 17:49:00+01:00"/>
 <meta property="article:author" content="http://markpp.github.io/author/mark-philip-philipsen.html">
 <meta property="article:section" content="projects"/>
-<meta property="article:tag" content="project rating"/>
+<meta property="article:tag" content="project"/>
 <meta property="og:image" content="">
 
-  <title>Adaptive Slaugther Robots &ndash; Project selection</title>
+  <title>Adaptive Slaugther Robots &ndash; Augmented Cellular Meat Production</title>
 
 </head>
 <body>
@@ -73,7 +73,7 @@
 
 <article class="single">
   <header>
-    <h1 id="project-selection">Project selection</h1>
+    <h1 id="augmented_cellular_meat_production">Augmented Cellular Meat Production</h1>
     <p>
           Posted on Mon 23 January 2017 in <a href="http://markpp.github.io/category/projects.html">projects</a>
 
@@ -83,54 +83,87 @@
 
 
   <div>
-    <p>The first task of the PhD
-<img alt="project partners" src="../images/project_partners.png">  </p>
-<h2>Selection criteria</h2>
-<h3>Basic/universal</h3>
-<p>-</p>
-<h3>PhD/research</h3>
-<ul>
-<li></li>
-</ul>
-<h3>DMRI/commercial</h3>
-<ul>
-<li></li>
-</ul>
-<h3>Practical</h3>
-<ul>
-<li></li>
-</ul>
-<h2>Project scores</h2>
-<table>
-<thead>
-<tr>
-<th>Criteria</th>
-<th align="center">3D-derinding</th>
-<th align="right">Multi-needle injection</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Potential</td>
-<td align="center">2</td>
-<td align="right">(1)(2)</td>
-</tr>
-<tr>
-<td>Input</td>
-<td align="center">2</td>
-<td align="right">1(2)</td>
-</tr>
-<tr>
-<td>Output</td>
-<td align="center">(2)</td>
-<td align="right">1</td>
-</tr>
-</tbody>
-</table>
+    <h1>Augmented Cellular Meat Production (ACMP)</h1>
+<h2>Talking points</h2>
+<p>The robot cell is necessary because production line is maxed out. The cellular concept provides:
+-   Multiple operation
+-   Flexibility
+-   High equipment utilization
+-   Redundancy
+-   Parallel scaling</p>
+<p>CPU vs. GPU analogy:</p>
+<blockquote>
+<p>The cellular concept gives us the flexibility of the CPU and the parallelism of the GPU</p>
+</blockquote>
+<p>Or Ferrari vs. pickup truck</p>
+<blockquote>
+<p>The Ferrari has a high top speed but breaks down often, whereas the pickup ...</p>
+</blockquote>
+<p>The collaborative robot cell combines:
+-   Strength of robot
+-   Flexibility of human
+-   Speeds up and ease transition to full automation</p>
+<p>Investigate what works for:
+-   Intention communication
+    *   Visualization
+-   Proactive collaboration
+    *   Strategies
+-   Learning
+    *   Self-learning
+    *   Continuous learning
+-   (Safety)
+    *   Aura as an example</p>
+<p>Find out by applying the technologies to some practical cases.</p>
+<p>Reactive -&gt; Proactive collaboration</p>
+<p>The WP are organized in order to control risk</p>
+<p>WP1
+-   Identifying interface which allows for all day use</p>
+<p>W2
+-   Integration of robot into collaboration</p>
+<h2>Questions</h2>
+<p>What can we learn form other industries and what can they learn from us
+-   If it can be done for this industry it can be done for everything else</p>
+<p>Why do the robots need to be self-learing?
+-   More adaptable
+-   Lets us achieve behavior that is difficult to program
+-   Continous improvement
+-   Intense research activity and rate of improvement</p>
+<p>Who are the leaders in reinforcement learning?
+-   Google DeepMind(UK)(David Silver and many more), with their <a href="https://arxiv.org/pdf/1602.01783.pdf">A3C algorithm</a>
+    * With A3C a network estimate both a value function V(s) (how good a certain state is to be in) and a policy π(s) (a set of action probability outputs)
+    * Known for conquering the complex game of Go
+-   OpenAI
+-   University of Montreal(Yoshua Bengio)
+-   UC Berkeley(Sergey Levine)
+-   University of Massachusetts Amherst(Barto)
+-   University of Alberta(Richard Sutton)
+-   University of Toronto(Geoffrey Hinton)
+-   New Tork University(Yann LeCun
+-   Stanford
+-   University of Waikato New Zealand(Tony Smith)
+-   University of Cambridge</p>
+<p>Types of reinforcement learning
+-   Actor-Critic reinforcement learning
+    * The Critic(state value function) evaluate the consequences of the Actor's(controller) policies and provide feedback to the Actor
+-   Model based 
+    * Tries to model the environment e.i. learn the whole world
+-   Model-free
+    * Attempts to learn policies directly e.i. sovle the problem
+-   What is a policy
+    * A function that maps from state to action
+-   Off-policy
+    * Gather information from (partially) random moves 
+    * Evaluate states as if a greedy policy was used 
+    * Slowly reduce randomness
+-   On-policy
+    * Start with a simple soft policy 
+    * Sample state space with this policy 
+    * Improve policy
+    * Suffers from local minima</p>
   </div>
   <div class="tag-cloud">
     <p>
-      <a href="http://markpp.github.io/tag/project-rating.html">project rating</a>
+      <a href="http://markpp.github.io/tag/project.html">project</a>
     </p>
   </div>
 
