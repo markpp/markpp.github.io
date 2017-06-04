@@ -30,8 +30,7 @@
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="http://markpp.github.io"/>
 
-  <title>Adaptive Slaugther Robots &ndash;     Archives
-</title>
+  <title>Adaptive Slaugther Robots</title>
 
 </head>
 <body>
@@ -65,30 +64,24 @@
   <main>
 
 
-<article class="single">
-  <header>
-    <h1>    Archives
-</h1>
-  </header>
-  <div>
-    <dl>
-      <dt>Wed 10 May 2017</dt>
-      <dd><a href="http://markpp.github.io/cool_robots.html">Cool robotics</a></dd>
-      <dt>Sat 29 April 2017</dt>
-      <dd><a href="http://markpp.github.io/interesting-reads.html">Interesting reads</a></dd>
-      <dt>Fri 28 April 2017</dt>
-      <dd><a href="http://markpp.github.io/robots-are-comming.html">The robots are comming</a></dd>
-      <dt>Mon 23 January 2017</dt>
-      <dd><a href="http://markpp.github.io/conference_schedule_journals.html">Conference schedule and journals</a></dd>
-      <dt>Mon 23 January 2017</dt>
-      <dd><a href="http://markpp.github.io/inject.html">Injection</a></dd>
-      <dt>Mon 23 January 2017</dt>
-      <dd><a href="http://markpp.github.io/research-areas.html">Research areas</a></dd>
-      <dt>Mon 23 January 2017</dt>
-      <dd><a href="http://markpp.github.io/summer_schools.html">Relevant summer schools</a></dd>
-    </dl>
-  </div>
-</article>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://markpp.github.io/my_theme/js/tipuesearch/tipuesearch_set.js"></script>
+<script type="text/javascript" src="http://markpp.github.io/my_theme/js/tipuesearch/tipuesearch.js"></script>
+
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch({
+             'mode' : 'json',
+         'show': 10,
+         'newWindow': false,
+          'showURL' : false,
+             'contentLocation': 'tipuesearch_content.json'
+     });
+});
+</script>
+<div id="post_container">
+<div id="tipue_search_content"><div id="tipue_search_loading"></div></div>
+</div>
 
     <footer>
       <form class="search_form" id="main_search_form" action="http://markpp.github.io/search.html" onsubmit="return validateForm(this.elements['q'].value);">

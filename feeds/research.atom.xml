@@ -2,8 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Adaptive Slaugther Robots - research</title><link href="http://markpp.github.io/" rel="alternate"></link><link href="http://markpp.github.io/feeds/research.atom.xml" rel="self"></link><id>http://markpp.github.io/</id><updated>2017-04-29T17:49:00+02:00</updated><entry><title>Interesting reads</title><link href="http://markpp.github.io/interesting-reads.html" rel="alternate"></link><published>2017-04-29T17:49:00+02:00</published><updated>2017-04-29T17:49:00+02:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-04-29:/interesting-reads.html</id><summary type="html">&lt;p&gt;List of great blogposts on machine learning, computer vision, etc.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Computer vision&lt;/h1&gt;
 &lt;p&gt;&lt;a href="http://alexgkendall.com/computer_vision/have_we_forgotten_about_geometry_in_computer_vision/"&gt;Have We Forgotten about Geometry in Computer Vision?&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://warmspringwinds.github.io/tensorflow/tf-slim/2016/10/30/image-classification-and-segmentation-using-tensorflow-and-tf-slim/"&gt;Image Classification and Segmentation with Tensorflow and TF-Slim&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;Inspiraring project&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://jacquesmattheij.com/sorting-two-metric-tons-of-lego"&gt;Lego sorting with keras&lt;/a&gt;&lt;/p&gt;</content><category term="machine learning"></category><category term="computervision"></category><category term="deep learning"></category><category term="reinforcement learning"></category><category term="transfer learning"></category><category term="continuous learning"></category></entry><entry><title>Research areas</title><link href="http://markpp.github.io/research-areas.html" rel="alternate"></link><published>2017-01-23T17:49:00+01:00</published><updated>2017-02-23T17:49:00+01:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-01-23:/research-areas.html</id><summary type="html">&lt;p&gt;Overview of the research areas that are of relevance to my PhD&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Reinforcement learning&lt;/h2&gt;
+&lt;h1&gt;Inspiring projects&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://jacquesmattheij.com/sorting-two-metric-tons-of-lego"&gt;Lego sorting with keras&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://medium.freecodecamp.com/recognizing-traffic-lights-with-deep-learning-23dae23287cc#.o1ocin3tj"&gt;Kagle traffic light detection entry&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Unsorted&lt;/h1&gt;
+&lt;p&gt;&lt;a href=""&gt;1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;https://www.nytimes.com/2015/05/22/science/robots-that-can-match-human-dexterity.html?_r=0
+https://medium.com/@karpathy/alphago-in-context-c47718cb95a5
+https://www.infoq.com/articles/machine-learning-techniques-predictive-maintenance?utm_source=hackernews&amp;amp;utm_medium=link&amp;amp;utm_campaign=external
+https://hackernoon.com/programmers-guide-to-homogeneous-coordinates-73cbfd2bcc65&lt;/p&gt;
+&lt;p&gt;reinforcement learning:
+https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-8-asynchronous-actor-critic-agents-a3c-c88f72a5e9f2&lt;/p&gt;
+&lt;p&gt;GANs
+https://hackernoon.com/how-do-gans-intuitively-work-2dda07f247a1#.jusktltwb&lt;/p&gt;
+&lt;p&gt;How to do good research
+http://blog.robotiq.com/this-single-statement-generates-great-robotics-research
+http://www.sciencebuddies.org/science-fair-projects/project_engineering.shtml&lt;/p&gt;
+&lt;p&gt;understanding gradient decent and momentum http://distill.pub/2017/momentum/&lt;/p&gt;
+&lt;p&gt;https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b#.elz3qb7oi&lt;/p&gt;
+&lt;p&gt;http://xrds.acm.org/blog/2016/06/convolutional-neural-networks-cnns-illustrated-explanation/
+https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/
+http://cs231n.github.io/neural-networks-2/&lt;/p&gt;
+&lt;p&gt;https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html&lt;/p&gt;
+&lt;p&gt;http://deepdish.io/2015/02/24/network-initialization/&lt;/p&gt;
+&lt;p&gt;http://yerevann.com/a-guide-to-deep-learning/&lt;/p&gt;
+&lt;p&gt;Collection of google research:
+https://research.googleblog.com/2016/10/how-robots-can-acquire-new-skills-from.html&lt;/p&gt;
+&lt;p&gt;http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/&lt;/p&gt;
+&lt;p&gt;https://cs.stanford.edu/people/widom/paper-writing.html&lt;/p&gt;
+&lt;p&gt;http://distill.pub/2016/misread-tsne/&lt;/p&gt;
+&lt;p&gt;Blogs:
+Former apple employe http://minimaxir.com/ 
+News and research from machine learning podcast and blog https://twimlai.com/&lt;/p&gt;
+&lt;p&gt;introduction to probabilistic graphical models
+https://people.eecs.berkeley.edu/~jordan/prelims/
+introduction to probability and statistics
+http://students.brown.edu/seeing-theory/&lt;/p&gt;
+&lt;p&gt;Book list:
+http://www.dancarlin.com/audible-book-recommendations/&lt;/p&gt;</content><category term="machine learning"></category><category term="computervision"></category><category term="deep learning"></category><category term="reinforcement learning"></category><category term="transfer learning"></category><category term="continuous learning"></category></entry><entry><title>Research areas</title><link href="http://markpp.github.io/research-areas.html" rel="alternate"></link><published>2017-01-23T17:49:00+01:00</published><updated>2017-02-23T17:49:00+01:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-01-23:/research-areas.html</id><summary type="html">&lt;p&gt;Overview of the research areas that are of relevance to my PhD&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Reinforcement learning&lt;/h2&gt;
 &lt;p&gt;Appropriate actions in a given state are learned from feedback in the form of rewards and penalties. Exploration and exploitation are the mechanisms for trying new actions and for xx, respectively.
 - Self-learning framework which can be applied to several similar robot control problems. &lt;a href="https://arxiv.org/abs/1312.5602"&gt;DeepMind, Playing Atari with Deep Reinforcement Learning&lt;/a&gt;&lt;a href="http://www.davidqiu.com:8888/research/nature14236.pdf"&gt;DeepMind, Human-level control through deep reinforcement learning&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Continuous(online) learning&lt;/h2&gt;
