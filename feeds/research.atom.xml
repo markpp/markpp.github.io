@@ -4,7 +4,7 @@
 &lt;p&gt;&lt;a href="http://warmspringwinds.github.io/tensorflow/tf-slim/2016/10/30/image-classification-and-segmentation-using-tensorflow-and-tf-slim/"&gt;Image Classification and Segmentation with Tensorflow and TF-Slim&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;Inspiring projects&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://jacquesmattheij.com/sorting-two-metric-tons-of-lego"&gt;Lego sorting with keras&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://medium.freecodecamp.com/recognizing-traffic-lights-with-deep-learning-23dae23287cc#.o1ocin3tj"&gt;Kagle traffic light detection entry&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://medium.freecodecamp.com/recognizing-traffic-lights-with-deep-learning-23dae23287cc#.o1ocin3tj"&gt;Kaggle traffic light detection entry&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;Unsorted&lt;/h1&gt;
 &lt;p&gt;&lt;a href=""&gt;1&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;https://www.nytimes.com/2015/05/22/science/robots-that-can-match-human-dexterity.html?_r=0
@@ -32,23 +32,26 @@ https://research.googleblog.com/2016/10/how-robots-can-acquire-new-skills-from.h
 &lt;p&gt;https://cs.stanford.edu/people/widom/paper-writing.html&lt;/p&gt;
 &lt;p&gt;http://distill.pub/2016/misread-tsne/&lt;/p&gt;
 &lt;p&gt;Blogs:
-Former apple employe http://minimaxir.com/ 
+Former apple employe http://minimaxir.com/
 News and research from machine learning podcast and blog https://twimlai.com/&lt;/p&gt;
 &lt;p&gt;introduction to probabilistic graphical models
 https://people.eecs.berkeley.edu/~jordan/prelims/
 introduction to probability and statistics
 http://students.brown.edu/seeing-theory/&lt;/p&gt;
 &lt;p&gt;Book list:
-http://www.dancarlin.com/audible-book-recommendations/&lt;/p&gt;</content><category term="machine learning"></category><category term="computervision"></category><category term="deep learning"></category><category term="reinforcement learning"></category><category term="transfer learning"></category><category term="continuous learning"></category></entry><entry><title>Research areas</title><link href="http://markpp.github.io/research-areas.html" rel="alternate"></link><published>2017-01-23T17:49:00+01:00</published><updated>2017-02-23T17:49:00+01:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-01-23:/research-areas.html</id><summary type="html">&lt;p&gt;Overview of the research areas that are of relevance to my PhD&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Reinforcement learning&lt;/h2&gt;
+http://www.dancarlin.com/audible-book-recommendations/&lt;/p&gt;</content><category term="machine learning"></category><category term="computervision"></category><category term="deep learning"></category><category term="reinforcement learning"></category><category term="transfer learning"></category><category term="continuous learning"></category></entry><entry><title>PhD thesis overview</title><link href="http://markpp.github.io/thesis_overview.html" rel="alternate"></link><published>2017-02-02T17:49:00+01:00</published><updated>2017-04-28T17:49:00+02:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-02-02:/thesis_overview.html</id><summary type="html">&lt;p&gt;Tadsasdasd&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;asd&lt;/p&gt;
+&lt;h1&gt;Outline&lt;/h1&gt;
+&lt;p&gt;asd&lt;/p&gt;</content><category term="thesis"></category><category term="project"></category></entry><entry><title>Research areas</title><link href="http://markpp.github.io/research-areas.html" rel="alternate"></link><published>2017-01-23T17:49:00+01:00</published><updated>2017-02-23T17:49:00+01:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-01-23:/research-areas.html</id><summary type="html">&lt;p&gt;Overview of the research areas that are of relevance to my PhD&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Reinforcement learning&lt;/h2&gt;
 &lt;p&gt;Appropriate actions in a given state are learned from feedback in the form of rewards and penalties. Exploration and exploitation are the mechanisms for trying new actions and for xx, respectively.
 - Self-learning framework which can be applied to several similar robot control problems. &lt;a href="https://arxiv.org/abs/1312.5602"&gt;DeepMind, Playing Atari with Deep Reinforcement Learning&lt;/a&gt;&lt;a href="http://www.davidqiu.com:8888/research/nature14236.pdf"&gt;DeepMind, Human-level control through deep reinforcement learning&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Continuous(online) learning&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Continuously adjusting a trained model while in use, based on feedback.&lt;/li&gt;
-&lt;li&gt;Extending a pretrained model with new functionality, e.g. adding an additional class to a classifier without retraining using the original dataset.&lt;/li&gt;
+&lt;li&gt;Extending a pre-trained model with new functionality, e.g. adding an additional class to a classifier without retraining using the original dataset.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Hybrid intelligence&lt;/h2&gt;
-&lt;p&gt;Many of the tasks that must be automated are too challenging for current machine intelligence to consistently solve at a satisfactory level of performance. Hybrid intelligence where human intelligence is keept in the loop is thus a necessety for the forseable future. When applying hybrid intelligence there exisits two interaction patterns; active learning and hybrid interaction. In the former, human intelligence is only utilized when the machine isn't confident. In the latter both machine and human intelligence is involved in every case. Here the machine propose a solution that the human must accept, modify or reject. 
+&lt;p&gt;Many of the tasks that must be automated are too challenging for current machine intelligence to consistently solve at a satisfactory level of performance. Hybrid intelligence where human intelligence is kept in the loop is thus a necessity for the foreseeable future. When applying hybrid intelligence there exists two interaction patterns; active learning and hybrid interaction. In the former, human intelligence is only utilized when the machine isn't confident. In the latter both machine and human intelligence is involved in every case. Here the machine propose a solution that the human must accept, modify or reject. 
 &lt;a href="https://medium.com/@clarecorthell/hybrid-artificial-intelligence-how-artificial-assistants-work-eefbafbd5334"&gt;Hybrid Intelligence: How Artificial Assistants Work&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Transfer learning&lt;/h2&gt;
 &lt;ul&gt;
