@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="http://markpp.github.io/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="http://markpp.github.io/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="http://markpp.github.io/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="http://markpp.github.io/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="http://markpp.github.io/theme/font-awesome/css/solid.css">
+
+
+    <link href="http://markpp.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Adaptive Slaugther Robots Atom">
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97187750-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<meta name="author" content="Mark Philip Philipsen" />
+<meta name="description" content="Instructions on installing Ubuntu along windows" />
+<meta name="keywords" content="ubuntu, windows">
+
+<meta property="og:site_name" content="Adaptive Slaugther Robots"/>
+<meta property="og:title" content="Dual booting Windows 10 and Ubuntu 16.04 on corporate Lenovo P50"/>
+<meta property="og:description" content="Instructions on installing Ubuntu along windows"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="http://markpp.github.io/dual_boot.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2017-08-04 17:49:00+02:00"/>
+<meta property="article:modified_time" content="2017-08-04 17:49:00+02:00"/>
+<meta property="article:author" content="http://markpp.github.io/author/mark-philip-philipsen.html">
+<meta property="article:section" content="guide"/>
+<meta property="article:tag" content="ubuntu"/>
+<meta property="article:tag" content="windows"/>
+<meta property="og:image" content="">
+
+  <title>Adaptive Slaugther Robots &ndash; Dual booting Windows 10 and Ubuntu 16.04 on corporate Lenovo P50</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="http://markpp.github.io">
+        <img src="http://markpp.github.io/theme/img/profile.png" alt="" title="">
+      </a>
+      <h1><a href="http://markpp.github.io"></a></h1>
+
+<p>Robotics, machine learning and doing an industrial PhD</p>
+      <nav>
+        <ul class="list">
+          <li><a href="http://markpp.github.io/pages/about.html#about">About</a></li>
+
+          <li><a href="https://scholar.google.dk/citations?user=p2f_-EcAAAAJ&hl=en" target="_blank">Google scholar</a></li>
+          <li><a href="http://vbn.aau.dk/en/persons/mark-philip-philipsen(e88ba286-913a-44d7-89d8-e54dc45d8d3e).html" target="_blank">VBN AAU</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+          <li>
+            <a  class="sc-twitter" href="http://twitter.com/MarkPhilipsen" target="_blank">
+            <i class="fab fa-twitter">
+            </i>
+          </a></li>
+          <li>
+            <a  class="sc-github" href="https://github.com/markpp" target="_blank">
+            <i class="fab fa-github">
+            </i>
+          </a></li>
+          <li>
+            <a  class="sc-linkedin" href="https://www.linkedin.com/in/markphilipsen/" target="_blank">
+            <i class="fab fa-linkedin">
+            </i>
+          </a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="dual_boot">Dual booting Windows 10 and Ubuntu 16.04 on corporate Lenovo P50</h1>
+    <p>
+          Posted on Fri 04 August 2017 in <a href="http://markpp.github.io/category/guide.html">guide</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <h1>Instructions</h1>
+<p>The instructions are given in a loose chronological order where it is possible to switch around the order in many cases.</p>
+<h1>Links</h1>
+<p><a href="https://blogs.msdn.microsoft.com/abhinaba/2015/11/17/dual-booting-ubuntu-and-windows-10/">dual-booting-ubuntu-and-windows-10</a>
+<a href="https://www.howtogeek.com/192894/how-to-set-up-bitlocker-encryption-on-windows/">Explanation of Bitlocker and TBM</a></p>
+<h2>Create bootable Ubuntu USB drive</h2>
+<ul>
+<li>I used <a href="https://rufus.akeo.ie/">Rufus</a></li>
+<li>USB drive capacity &gt; 1.6 gb</li>
+<li>Select partition scheme to be the same as the partition that Ubuntu will be installed to</li>
+<li>The partition scheme must also be set to UEFI. Since windows is likely installed with this setting and it must be uniform accros all installation.</li>
+<li>Use FAT32 file system</li>
+<li>Select the Ubuntu disk image</li>
+<li>When asked select iso mod. In case problems araise later use DD mode instead.</li>
+</ul>
+<h1>Prepare PC</h1>
+<ul>
+<li>Turn off BitLocker, decryption takes approximately 20 min.</li>
+<li>Use Windows Disk Management to create free space by scrinking the main Windows partition(&gt;100BG)</li>
+<li>Disable secure boot</li>
+</ul>
+<div class="highlight"><pre><span></span>$ WinKey+R
+$ shutdown.exe /r /o /f /t <span class="m">00</span>
+</pre></div>
+
+
+<ul>
+<li>Select Troubleshoot-&gt;UEFI Firmware Settings</li>
+<li>In BIOS, disable Security-&gt;Secure Boot and set Startup-&gt;UEFI/Legacy Boot to UEFI only</li>
+<li>(optional) set Boot Mode to Diagnostics</li>
+</ul>
+<h1>Installing Ubuntu</h1>
+<ul>
+<li>Press F12 during boot</li>
+<li>Boot from the USB drive</li>
+<li>Create a ext4 partition from the free disk space<h2>- Use root(/) as mounting point</h2>
+</li>
+<li>Select partition with windows bootloader(efi) to install linux bootloader, usually 2nd partition</li>
+</ul>
+<h1>Booting Ubuntu</h1>
+<ul>
+<li>Press F1 during boot to enter BIOS</li>
+<li>Change boot order under Startup-&gt;Boot so that ubuntu is at the top</li>
+</ul>
+<h1>Post setup</h1>
+<ul>
+<li>Costomize the grub boot order <a href="http://tipsonubuntu.com/2016/07/20/grub2-boot-order-ubuntu-16-04/">GUI or commandline</a></li>
+<li>Enable Bitlocker and backup the new recovery key</li>
+<li>Revert various changes in BIOS<ul>
+<li>Enable "Secure Boot"</li>
+</ul>
+</li>
+</ul>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="http://markpp.github.io/tag/ubuntu.html">ubuntu</a>
+      <a href="http://markpp.github.io/tag/windows.html">windows</a>
+    </p>
+  </div>
+
+
+
+
+
+</article>
+
+    <footer>
+<p>&copy;  </p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Adaptive Slaugther Robots ",
+  "url" : "http://markpp.github.io",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>

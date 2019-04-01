@@ -1,559 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Adaptive Slaugther Robots - projects</title><link href="http://markpp.github.io/" rel="alternate"></link><link href="http://markpp.github.io/feeds/projects.atom.xml" rel="self"></link><id>http://markpp.github.io/</id><updated>2017-06-04T17:49:00+02:00</updated><entry><title>Project management</title><link href="http://markpp.github.io/project_management.html" rel="alternate"></link><published>2017-06-04T17:49:00+02:00</published><updated>2017-06-04T17:49:00+02:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-06-04:/project_management.html</id><summary type="html">&lt;p&gt;Notes on management and structuring of the work and projects at DMRI&lt;/p&gt;</summary><content type="html">&lt;h1&gt;DMRI work structure&lt;/h1&gt;
-&lt;p&gt;I have attempted to structure the work for the next 3 years and put it into a larger context.&lt;/p&gt;
-&lt;h2&gt;Portfolio(3 years)&lt;/h2&gt;
-&lt;p&gt;A portfolio is a collection of programs that contribute to reaching the strategic goals and the vision of DMRI. In this case we will focus on one portfolio:
-- Advanced robotics&lt;/p&gt;
-&lt;p&gt;The goal of the advanced robotics portfolie is to obtain the competencies that are needed to develope a new generation of moro adaptive and intelligent robots for the meat indutry. DMRI's goals, in terms of obtaining new competencies and more adaptive and intelligent automation, are visualized in the following "road map".
-&lt;img alt="Road map" src="../images/planning/DMRI_road_map.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Programs&lt;/h2&gt;
-&lt;p&gt;A program is a grouping of projects that in combination seek to achieve the goals of the program. In this case we group projects or sub-projects under four programs, where each program more or less rely on the experiences from prior programs. The project cases that constitute the activities in the programs may be continued, with an extended scope, in one of the following programs. This is especially going to be the case with the most of the projects in the first "Analysis" program as they naturally provide a foundation for the development of demonstrators that make use of new technologies.
-1. Analysis of slaughering processes
-2. "Chip-tuned" demonstrator
-3. Novel robotic demonstrator
-4. Future robotics&lt;/p&gt;
-&lt;h2&gt;Projects&lt;/h2&gt;
-&lt;p&gt;Projects have a well defined and narrow scope. At the same time, the scope might change based on feedback from customers or due to technical road blocks.&lt;/p&gt;
-&lt;p&gt;Here are some of the challenges that must be overcome:
-- In most cases no equpment other than what is currently in use in the slaughterhouses is available.
-- The machines are old and documentation is non-existing.
-- The manufacturer may not be willing to share information.&lt;/p&gt;
-&lt;h3&gt;Injection into meat&lt;/h3&gt;
-&lt;p&gt;With meat injection an older machine is available for experimentation at DMRI.&lt;/p&gt;
-&lt;p&gt;&lt;a href="2017-03-10-injection.md"&gt;Analysis of the injection into meat project&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Improved spine saw or division in 3 parts or splitting&lt;/h3&gt;
-&lt;p&gt;Only online in slaughterhouses&lt;/p&gt;
-&lt;h3&gt;Robotic gripping of pork bellies from Christmas trees&lt;/h3&gt;
-&lt;p&gt;Focus is on teaching the robot to grip the meat robustly.&lt;/p&gt;
-&lt;h1&gt;Robot projects at DMRI&lt;/h1&gt;
-&lt;p&gt;The "advanced robotics" portfolio road map contains a number of programs. A program is a collection of similar tasks that may overlap several project. A project is collection of modules that solve a problem, in our case one or more processes from the slaughterhouse.&lt;/p&gt;
-&lt;p&gt;[1] Analysis
-- [1.1] Project description and complexity classification
-  - M[1.1.1] Candidate cases defined
-  - M[1.1.2] Initial selection of cases
-  - M[1.1.3] Complexity analysis completed
-  - D[1.1.1] Report with overview of candidate cases
-  - D[1.1.2] Report on selected cases
-- [1.2] Data collection
-  - [1.2.1] RGB-D vision system
-  - [1.2.2] Injection setup
-- [1.3] Data analysis
-  - [1.3.1] Local meat type detection
-  - [1.3.2] Local volume gain measuring&lt;/p&gt;
-&lt;p&gt;[2] "Chip-tuned" demonstrator
-- [2.1] Predict control parameters
-- [2.2] Online learning
-- [2.3] Data analysis&lt;/p&gt;
-&lt;p&gt;[3] Novel robotic demonstrator
-- [3.1] Real-time control
-- [3.2] Locating pork belly on Christmas trees&lt;/p&gt;
-&lt;p&gt;[4] Future robotics
-- [4.1] Self-learning framework
-- [4.2] Transfer learning framework&lt;/p&gt;
-&lt;p&gt;[5] Documentation and dissemination
-- Promotion(5 articles)
-- Scientific publication
-- Patenting
-- Instruction&lt;/p&gt;
-&lt;h1&gt;Resources&lt;/h1&gt;
-&lt;h2&gt;MADE&lt;/h2&gt;
-&lt;p&gt;Focus points:
-- Research in adaptive learning algorithms
-- Adapt to variations in input
-- Perform corrections during processing
-- Learn from the quality of the produced output&lt;/p&gt;
-&lt;p&gt;Main research question:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Adaptive Slaugther Robots - projects</title><link href="http://markpp.github.io/" rel="alternate"></link><link href="http://markpp.github.io/feeds/projects.atom.xml" rel="self"></link><id>http://markpp.github.io/</id><updated>2017-05-10T17:49:00+02:00</updated><subtitle>Robotics, machine learning and doing an industrial PhD</subtitle><entry><title>Robotics</title><link href="http://markpp.github.io/robotics_stuff.html" rel="alternate"></link><published>2017-05-10T17:49:00+02:00</published><updated>2017-05-10T17:49:00+02:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-05-10:/robotics_stuff.html</id><summary type="html">&lt;p&gt;Notes on robotics&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Challanges&lt;/h1&gt;
+&lt;p&gt;Compared to the manufactoring of e.g. cars using robots, slaughtering will have the following problems
+-   Cobots are too slow
+-   Limited used of markers
+-   Variation
+-   Disassemble vs assembling&lt;/p&gt;
+&lt;h1&gt;Uarm Swift Pro&lt;/h1&gt;
+&lt;p&gt;ubuntu&lt;/p&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/uArm-Developer/UArmForROS"&gt;original uArm and ros&lt;/a&gt;
+&lt;a href="https://github.com/OssiLehtinen/uArm"&gt;Python Library for the uArm swift Pro robot arm&lt;/a&gt;
+&lt;a href="http://www.aransena.com/blog/2016/9/13/uarm-controller"&gt;Blog on uarm and ros&lt;/a&gt;
+&lt;a href="https://github.com/aransena/uarm_metal"&gt;Old uarm and ros&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Setup&lt;/h2&gt;
+&lt;p&gt;Connect uArm&lt;/p&gt;
+&lt;p&gt;Give temporary rights access uArm&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ sudo chmod 666 /dev/ttyACM0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Or get permanent USB permission to access uArm&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;cd&lt;/span&gt; /etc/udev/rules.d
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Creat a file &lt;code&gt;ttyUSB.rules&lt;/code&gt; and put the following line: &lt;code&gt;KERNEL=="ttyUSB*", MODE="0666"&lt;/code&gt;. Save the file and &lt;strong&gt;reconnect&lt;/strong&gt; uArm USB to make it effective. (if you already have the permission to access USB, you can skip this step)&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;How can robots learn to adapt to the natural variation exhibited in slaughter animals?&lt;/p&gt;
+&lt;p&gt;If your uArm is connected to ttyACM instead of ttyUSB (you can check using dmesg -c command after connecting your uArm),
+Creat a file &lt;code&gt;ttyACM.rules&lt;/code&gt; and put the following line: &lt;code&gt;KERNEL=="ttyACM*", MODE="0666"&lt;/code&gt;. Save the file and &lt;strong&gt;reconnect&lt;/strong&gt; uArm USB to make it effective. (if you already have the permission to access USB, you can skip this step)
+&lt;a href="https://github.com/uArm-Developer/UArmForROS"&gt;taken from here&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Objectives:
-- Investigate and test self-calibrating and learning algorithms for smart factory equipment(robots)
-- Demonstrate and evaluate algorithms in applications found in slaughterhouses&lt;/p&gt;
-&lt;p&gt;Milestones:
-- M1: Project scope approved(Sep. 2017)
-- M2: Case 1 completed(Dec. 2017)
-- M3: Case 2 completed(June. 2018)
-- M4: Final reporting(Dec. 2018)
-- M5: Learning points(Dec. 2018)&lt;/p&gt;
-&lt;h2&gt;DMRI(Sort team)&lt;/h2&gt;
-&lt;p&gt;Members: Mark, Haiyan, Claus, Flemming&lt;/p&gt;
-&lt;p&gt;Activities:
-- Grouping of control challenges
-- Identification of technologies for solving selected cases
-- Qualification of the individual technologies' potential
-- Setup of development plan, including investigation of possibilities for securing competitive advantages through ownership of control algorithms&lt;/p&gt;
-&lt;p&gt;Deliverables
-- Analysis of control challenges
-- Identification of usable technologies
-- Catalog of ideas&lt;/p&gt;
-&lt;p&gt;Internal objectives
-- Min. 5 articles
-- Participation in min. 1 seminar or conference based on technology, work process or concrete solution - preferably with synergies with "resultatkontrakt"
-- Min. 3 financed projects derived from the work for 2017 - possibly in collaboration with "de blå spejder"
-- Collaboration with min. 3 new actors(university or other) - preferably with synergies with "resultatkontrakt"&lt;/p&gt;</content><category term="projects"></category></entry><entry><title>Cool robotics</title><link href="http://markpp.github.io/cool_robots.html" rel="alternate"></link><published>2017-05-10T17:49:00+02:00</published><updated>2017-05-10T17:49:00+02:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-05-10:/cool_robots.html</id><summary type="html">&lt;p&gt;Inspiring robot projects in the wild&lt;/p&gt;</summary><content type="html">&lt;p&gt;https://ing.dk/video/se-lille-hjaelper-robot-pa-arbejde-hos-grundfos-118751
+&lt;h2&gt;Install ROS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;http://wiki.ros.org/kinetic/Installation/Ubuntu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Install ROS Industrial&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;https://msadowski.github.io/ros-industrial-coming-to-kinetic/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Moveit&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;http://moveit.ros.org/install/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Robot drivers&lt;/h2&gt;
+&lt;h3&gt;Swift Pro&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;https://github.com/uArm-Developer/SwiftproForROS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When RViz opens
+- set "Fixed Frame" under global Options to "base" to get rid of the Fixed Frame [map] error
+- add RobotModel
+- add TF&lt;/p&gt;
+&lt;p&gt;Happens when loading
+ [ERROR] [1490907690.019375241]: Robot semantic description not found. Did you forget to define or remap '/robot_description_semantic'?
+Inseart this in the launch file
+&lt;param name="robot_description_semantic" textfile="$(find swiftpro_moveit)/config/swiftpro.srdf"/&gt;&lt;/p&gt;
+&lt;p&gt;make node output ROS_INFO messages by adding output="screen", like this:
+-   &lt;node name="swiftpro_read_node" pkg="swiftpro" type="swiftpro_read_node" output="screen" /&gt;&lt;/p&gt;
+&lt;p&gt;add screen to output in console
+&lt;!--    &lt;node name="swiftpro_read_node" pkg="swiftpro" type="swiftpro_read_node" output="screen" /&gt; --&gt;&lt;/p&gt;
+&lt;h1&gt;KUKA iiwa&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;follow instructions in https://github.com/SalvoVirga/iiwa_stack&lt;/li&gt;
+&lt;li&gt;connect orange cable and set pc ip to 160.69.69.100, subnet 255.255.0.0&lt;/li&gt;
+&lt;li&gt;edit .bachrc&lt;/li&gt;
+&lt;li&gt;edit launch file moveit_planning_execution.launch where sim should be changed to false in order to use the real robot.&lt;/li&gt;
+&lt;li&gt;start program using “roslaunch moveit_planning_execution.launch”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Inspiring robot projects&lt;/h1&gt;
+&lt;p&gt;https://ing.dk/video/se-lille-hjaelper-robot-pa-arbejde-hos-grundfos-118751
 http://www.kuka-robotics.com/denmark/da/solutions/solutions_search/L_R232_Robot_optimizes_cutting_of_pork_sides.htm
 https://www.scottautomation.com/meat/
 https://www.youtube.com/watch?v=a3GFjKo1FPM
 Robot- human collaboration
 http://www.kuka-robotics.com/hungary/en/solutions/solutions_search/L_R280_050528_Westfleisch.htm&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=tIIJME8-au8"&gt;KUKA robot faces off Timo Boll in table tennis duel&lt;/a&gt;
-&lt;a href="https://www.youtube.com/watch?v=sPfL9YIbYeY"&gt;Comau Racer robot how to shoot hoops&lt;/a&gt;&lt;/p&gt;</content><category term="project"></category><category term="video"></category></entry><entry><title>Cutting bellies</title><link href="http://markpp.github.io/cutting_bellies.html" rel="alternate"></link><published>2017-01-23T17:49:00+01:00</published><updated>2017-02-23T17:49:00+01:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-01-23:/cutting_bellies.html</id><summary type="html">&lt;p&gt;Overview of the project on cutting and trimming bellies on the pace-line.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Project description&lt;/h1&gt;
-&lt;p&gt;Pork bellies are cut and trimmed to the specification of customers.&lt;/p&gt;
-&lt;h1&gt;WPs&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="Components" src="../../images/gripping_bellies/meat_grabbing_components.png"&gt;&lt;/p&gt;
-&lt;h1&gt;Initial data collection and analysis&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="RS color" src="../../images/gripping_bellies/rs_color_12.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="RGB mapped to depth" src="../../images/gripping_bellies/kinect_color_0319.png"&gt;&lt;br&gt;
-&lt;img alt="depth" src="../../images/gripping_bellies/kinect_depth_0319_8bit.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Notes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Lack of appropriate and controlled lighting&lt;/li&gt;
-&lt;li&gt;It is problematic that when there is little weight on the Christmas tree, it can easily be pushed back by the gripping tool&lt;/li&gt;
-&lt;li&gt;The tool needs more clearance from the robot arm&lt;/li&gt;
-&lt;li&gt;What is difficult and what is easy&lt;/li&gt;
-&lt;/ul&gt;</content><category term="cutting"></category><category term="robot"></category></entry><entry><title>Gripping bellies</title><link href="http://markpp.github.io/gripping_bellies.html" rel="alternate"></link><published>2017-01-23T17:49:00+01:00</published><updated>2017-02-23T17:49:00+01:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-01-23:/gripping_bellies.html</id><summary type="html">&lt;p&gt;Overview of the project on gripping bellies from Christmas trees.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Project description&lt;/h1&gt;
-&lt;p&gt;The standardized form of storage for bellies, hams and backs are so called Christmas trees. A Christmas tree is a steel pipe with pikes extruding in all directions.&lt;/p&gt;
-&lt;h1&gt;TODO list&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Structure and sort data :heavy_check_mark:
-The samples ...&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Visualize data :heavy_check_mark:&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Unsupervised segmentation/clustering&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Feature extraction and analysis&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Finding suitable gripping zone&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;WPs&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="Components" src="../../images/gripping_bellies/meat_grabbing_components.png"&gt;&lt;/p&gt;
-&lt;h1&gt;Initial data collection and analysis&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="RS color" src="../../images/gripping_bellies/rs_color_12.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="RGB mapped to depth" src="../../images/gripping_bellies/kinect_color_0319.png"&gt;&lt;br&gt;
-&lt;img alt="depth" src="../../images/gripping_bellies/kinect_depth_0319_8bit.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Notes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Lack of appropriate and controlled lighting&lt;/li&gt;
-&lt;li&gt;It is problematic that when there is little weight on the Christmas tree, it can easily be pushed back by the gripping tool&lt;/li&gt;
-&lt;li&gt;The tool needs more clearance from the robot arm&lt;/li&gt;
-&lt;li&gt;What is difficult and what is easy&lt;/li&gt;
-&lt;/ul&gt;</content><category term="gripping"></category><category term="robot"></category></entry><entry><title>Injection</title><link href="http://markpp.github.io/inject.html" rel="alternate"></link><published>2017-01-23T17:49:00+01:00</published><updated>2017-02-23T17:49:00+01:00</updated><author><name>Mark Philip Philipsen</name></author><id>tag:markpp.github.io,2017-01-23:/inject.html</id><summary type="html">&lt;p&gt;Overview of the selection process for brine injection project&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Adaptive brine injection&lt;/h1&gt;
-&lt;p&gt;Brine injection is selected as the basis for a "quick and dirty" project where an adaptive method will help achieve a more optimal addition of salt to meat products. The project's duration is confined to 3-4 month, this means that it is necessary to clearly deliminate the problem and make wide use of "hand held" solutions in order to reduce setup time and quickly test the adaptive method. The adaptiveness lies in measuring the input or the output and controlling the process parameters accordingly.&lt;/p&gt;
-&lt;h1&gt;Table of contents&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#adaptive-brine-injection"&gt;Adaptive brine injection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#process-description"&gt;Process description&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#process-parameters"&gt;Process parameters&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="#initial-experiment"&gt;Initial experiment&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#state-of-the-art"&gt;State-of-the-art&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#meat-preparation"&gt;Meat preparation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#brine-injection"&gt;Brine injection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#tumbling"&gt;Tumbling&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#machine-manufacturers"&gt;Machine manufacturers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#process-control-research"&gt;Process control research&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="#possible-improvements"&gt;Possible improvements&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#project-choices"&gt;Project choices&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#platform"&gt;Platform&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="#hypothesis"&gt;Hypothesis&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Process description&lt;/h1&gt;
-&lt;p&gt;Brine is added to a wide range of meats before packaging in order to mature and tenderize the meat as well as enhance flavor. The brine consists of water and a mix of salt, phosphate, nitrate, sugar or flavoring. The central ingredient is the salt, which has the effect of increases the solubility of proteins and thereby improve the meats ability to retain water. However, if the salt concentration gets too high, the effect is reversed and the muscle fibers shrink and proteins risk getting washed out. For the best results, the brine should be uniformly distributed throughout the meat. This can be achieved by administering the brine externally or by injecting it directly into the meat. The salt will then diffuse through the meat and distribute evenly, with time, through chemical processes. Salt is able to diffuse at the most 0.5-1 cm. per day, so if the brine needs to defuse over long distances, it becomes very time intensive and impractical for modern industrial processes.
-The standard practice for quickly curing meat is injection of brine using a battery of needles. Even with modern injection systems the results are not always satisfactory and the meat is subjected to additional treatments. This extra treatment can happen both before and after the injection of brine. For instance, meat's ability to absorb brine can be improved by hammering before injection, this extends the muscle fibers, which increase room for brine and help achieve a more even distribution. Similarly, accelerated and improved diffusion of the injected brine along with additional absorption can be achieved by further mechanical treatment post-injection. The meat is e.g. massaged, which helps drain pockets of brine and close holes left by the injection needles.&lt;/p&gt;
-&lt;p&gt;The rapport "Accelereret saltning med multistiksprøjtning" [2] from the DMRI project; "Optimeret produktion af forædlede kødprodukter" investigates the possibilities for reducing the time needed to salt products using existing equipment. The process can be helped along by treating the meat mechanically. Advanced machinery exists for both injection and mechanical treatment, but no single manufacturer provides a complete state-of-the-art solution and slaughterhouses largely rely on older outdated machinery. The goal of part of the project is to reduce the time needed for the process to under one work day(7 hours).&lt;/p&gt;
-&lt;h2&gt;Process parameters&lt;/h2&gt;
-&lt;p&gt;The process can be very complex when taking the natural variation of the meat and the process variables into account.&lt;/p&gt;
-&lt;h3&gt;The salting process&lt;/h3&gt;
-&lt;p&gt;The main process variables are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pre-injection mechanical preparation&lt;ul&gt;
-&lt;li&gt;The degree to which the muscle fibers are stretched/loosened/opened&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Injection pattern&lt;ul&gt;
-&lt;li&gt;Denseness of injection, i.e. the spacing between injection holes&lt;/li&gt;
-&lt;li&gt;Strategy for injecting brine, e.g. continuously, on the down stroke, when reaching the bottom, etc.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Brine injection pressure&lt;ul&gt;
-&lt;li&gt;Brine pressure through the individual needle holes depends on the flow through other holes, which maybe be blocked or completely uncovered. High pressure has proven effective at better distributing the brine. Too high pressure may result in irreparable damage to the meat, where the meat disintegrates when sliced.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Injection speed/time&lt;ul&gt;
-&lt;li&gt;Duration injecting brine into the meat&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Post-injection mechanical treatment&lt;ul&gt;
-&lt;li&gt;[Time spend tumbling]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Physical properties of the meat&lt;/h3&gt;
-&lt;p&gt;that may influence the salting:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Meat texture&lt;ul&gt;
-&lt;li&gt;[Hardness and viscosity tells us something about the room around muscle fibers and thereby the meats ability to absorb the brine]&lt;/li&gt;
-&lt;li&gt;State of muscle fibers i.e. the degree to which the fibers are prepared to absorb the brine&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Size and shape&lt;ul&gt;
-&lt;li&gt;Especially the height of the meat&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Composition&lt;ul&gt;
-&lt;li&gt;Bone, skin, fat and connective tissue&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Muscle type&lt;ul&gt;
-&lt;li&gt;Red muscle is more absorbent than white&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Chemical properties of the brine and meat&lt;/h3&gt;
-&lt;p&gt;The composition of the brine solution and the chemical properties of the meat effect the salting. The most important chemical variables are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Salt concentration&lt;ul&gt;
-&lt;li&gt;Water retention increases with the concentration of salt&lt;/li&gt;
-&lt;li&gt;Very high salt concentrations reverses the effect&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Type of salt&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;NaCl&lt;/em&gt; is significantly better than &lt;em&gt;KCl&lt;/em&gt; at increasing water retention&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Sugar concentration&lt;ul&gt;
-&lt;li&gt;Sugar has a similar effect to salt&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Phosphate concentration&lt;ul&gt;
-&lt;li&gt;Phosphate increases the pH and water retention&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;pH&lt;ul&gt;
-&lt;li&gt;pH decides which ion, &lt;em&gt;Na+&lt;/em&gt; or &lt;em&gt;Cl-&lt;/em&gt;, plays the primary role in increasing water retention&lt;/li&gt;
-&lt;li&gt;A pH value around 6 has shown to lead to optimal water retention when using &lt;em&gt;NaCl&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Temperature&lt;ul&gt;
-&lt;li&gt;Low temperature contributes to better water retention, 4&amp;deg; being optimal&lt;/li&gt;
-&lt;li&gt;High temperature speeds up the diffusion of salt through the meat&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Type of meat&lt;ul&gt;
-&lt;li&gt;Amount of protein and the ratios between protein types, e.g. intracellular(soluble) and extracellular(non-soluble), has an effect on the meats ability to retain water&lt;/li&gt;
-&lt;li&gt;pH difference between cuts , e.g. pork shoulder has a much higher pH than pork loin&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Initial experiment&lt;/h1&gt;
-&lt;p&gt;An initial experiment was conducted in order to investigate the effect of the two primary process parameters; brine pressure and injection speed, as well as determine the possibilities for visually measuring the gain using 3D sensing. The details of the experiment are described in &lt;a href="https://docs.google.com/document/d/1raAamsBv-Zgsb5480L5EoHYvCk8Xo8ZGO3J60A4G6CI"&gt;multistiksprøjte eksperiment&lt;/a&gt;.&lt;/p&gt;
-&lt;h1&gt;State-of-the-art&lt;/h1&gt;
-&lt;p&gt;Examples of some of the most advanced machines and research.&lt;/p&gt;
-&lt;h2&gt;Meat preparation&lt;/h2&gt;
-&lt;p&gt;The effectiveness of mechanical preparation of meat is not yet well documented or understood. Some of the leading products for mechanical preparation of meat before injection of brine are:&lt;/p&gt;
-&lt;h3&gt;STEAKER/PRESSES by Günther (DE)&lt;/h3&gt;
-&lt;p&gt;These machines enlarges the surface area of meat cutting or pressing the meat.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Günther (DE)" src="../../images/injection/streaker_presses.jpg"&gt;&lt;/p&gt;
-&lt;h3&gt;MAX by Schröder (DE)&lt;/h3&gt;
-&lt;p&gt;Massages the meat in a temperature controlled environment, with or without vacuum.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Schröder (DE)" src="../../images/injection/max_6000.jpg"&gt;&lt;/p&gt;
-&lt;h3&gt;TwinHammer 5500 by METALQUIMIA&lt;/h3&gt;
-&lt;p&gt;Pre-massaging unit that stretch the muscle fibers, which increase the space around fibrils. Leads to a reduction in the time needed for tumbling after injection.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://en.metalquimia.com/products/products-by-family/meat-pre-massaging/twinhammer-5500/"&gt;twinhammer&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Bladehammer 5500 by METALQUIMIA&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://en.metalquimia.com/products/products-by-family/meat-pre-massaging/bladehammer-5500/"&gt;bladehammer&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Brine injection&lt;/h2&gt;
-&lt;p&gt;In the meat industry, brine is most commonly added using machines with multiple injection needles, the number of needles typically ranges from 40 to 500 with a spacing of 12-25 mm. With the trend going towards many thin needles with a high number of small holes combined with high pressure.&lt;/p&gt;
-&lt;p&gt;Correct adjustment of the injector has a large impact on the time needed for the salt to properly diffuse. [3]&lt;/p&gt;
-&lt;h3&gt;IMAX 420 by Schröder (DE):&lt;/h3&gt;
-&lt;p&gt;Schröder offers integrated weights that automatically control and adapt the injection speed during operation. They also offer individual needle damage and flow detection. Their injection system rely on many and very thin needles as well as independent control of conveyor belt, which allows for a very dense injection pattern&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.schroeder-maschinen.de/en/machines/injectors-imax.html"&gt;IMAX 420&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=UzfrEysbKYs"&gt;&lt;img alt="Schröder (DE)" src="../images/injection/IMAX_420.png"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;PI 750 DUO by Günther (DE)&lt;/h3&gt;
-&lt;p&gt;Spray Plus
-Traditionally, brine is injected using needles with a few holes that has a diameter above 1 mm and a low brine pressure of a few bars. With the spray plus system, Günther introduces a spray system where the needles have many holes with a small diameter and a very high brine pressure. This results in very fine droplets that should distribute well in the meat. Because of the much improved distribution of brine, the drip loss is reduced significantly.&lt;/p&gt;
-&lt;p&gt;The classical low pressure injection technique:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="classic_needle_1_2_3_4" src="../../images/injection/classic_needle_1_2_3_4.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;(1) Brine injection from the start, (2) Spraying continous as the needles descend, (3) Needles reach the bottom and leaves pockets of brine, (4) As the needles are withdrawn, brine collects in the holes&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="classic_needle_5" src="../../images/injection/classic_needle_5.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;(5) As the needles leave the meat, brine will escape&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The new high pressure injection technique:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="spray_needle_1_2_3_4" src="../../images/injection/spray_needle_1_2_3_4.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;(1) Needles enters the meat without spraying brine, (2) needles continue al the way to the bottom without spraying, (3) Brine is spayed using high pressure from all holes, (4) Needles are withdrawn without spraying brine&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The efficacy of the technology has not been verified independently yet&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.guenther-maschinenbau.de/en/g-products/pih-300-2-pih-600-4/"&gt;PI 750 DUO&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;M3 by FOMACO (DK)&lt;/h3&gt;
-&lt;p&gt;Inline Weight Controller (IWC) constantly monitors the injection quantity and corrects the settings in case of irregularities.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.fomaco.com/meat/machines/the-fomaco-m3"&gt;M3&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Movistick Plus 5500 by METALQUIMIA&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://en.metalquimia.com/products/products-by-family/spray-meat-injectors-plus/movistick-plus-5500/"&gt;Movistick Plus 5500&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;MOVIPLUS 4.0 by METALQUIMIA&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://en.metalquimia.com/products/products-by-family/meat-injectors-moviplus/moviplus-version-40/"&gt;MOVIPLUS 4.0&lt;/a&gt;
-Up &amp;amp; Down system for regulating the depth the needles will penetrate in order to avoid injecting fat and skin&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=8nvVhe9YZHw"&gt;&lt;img alt="up_down" src="../../images/injection/up_down.png"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Tumbling&lt;/h2&gt;
-&lt;p&gt;The diffusion of salt is helped along by the use of mechanical tumbling, which quickly can distribute the salt up to 2 cm. [3]
-The meat is gently tumbled, resulting in a massage of the meat that helps drain unabsorbed brine and thereby avoiding pockets of brine as well as closing up the holes that are left from the injection.&lt;/p&gt;
-&lt;h3&gt;DRYBINDER by METALQUIMIA (ES)&lt;/h3&gt;
-&lt;h3&gt;DRIPPING TUNNEL by Metalbud Nowicki (PL)&lt;/h3&gt;
-&lt;h2&gt;Machine manufacturers&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Name&lt;/th&gt;
-&lt;th align="center"&gt;Country&lt;/th&gt;
-&lt;th align="center"&gt;Pre-injection&lt;/th&gt;
-&lt;th align="center"&gt;Injection&lt;/th&gt;
-&lt;th align="center"&gt;Post-injection&lt;/th&gt;
-&lt;th align="right"&gt;Link&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Metalbud Nowicki&lt;/td&gt;
-&lt;td align="center"&gt;Poland&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="right"&gt;&lt;a href="http://en.metalquimia.com/"&gt;homepage&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;METALQUIMIA&lt;/td&gt;
-&lt;td align="center"&gt;Spain&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="right"&gt;&lt;a href="http://en.metalquimia.com/"&gt;homepage&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Marel&lt;/td&gt;
-&lt;td align="center"&gt;Island&lt;/td&gt;
-&lt;td align="center"&gt;&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="center"&gt;&lt;/td&gt;
-&lt;td align="right"&gt;&lt;a href="http://marel.com/"&gt;homepage&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;GAROS&lt;/td&gt;
-&lt;td align="center"&gt;Sweden&lt;/td&gt;
-&lt;td align="center"&gt;&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="right"&gt;&lt;a href="http://www.garos.net/"&gt;homepage&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;FOMACO&lt;/td&gt;
-&lt;td align="center"&gt;Denmark&lt;/td&gt;
-&lt;td align="center"&gt;&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="center"&gt;&lt;/td&gt;
-&lt;td align="right"&gt;&lt;a href="http://www.fomaco.com/"&gt;homepage&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Günther&lt;/td&gt;
-&lt;td align="center"&gt;Germany&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="right"&gt;&lt;a href="http://www.guenther-maschinenbau.de/en/"&gt;homepage&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Schröder&lt;/td&gt;
-&lt;td align="center"&gt;Germany&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="center"&gt;:heavy_check_mark:&lt;/td&gt;
-&lt;td align="right"&gt;&lt;a href="http://www.schroeder-maschinen.de/en/home.html"&gt;homepage&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2&gt;Process control research&lt;/h2&gt;
-&lt;p&gt;(Determination of Optimal Process Parameters to Prepare Licorice Extract Micro-particles Using Artificial Neural Network Based Particle Swarm Optimization)[https://github.com/markpp/Paper-notes/blob/master/process%20control/zhang2016determination.md] resume(ongoing)&lt;/p&gt;
-&lt;p&gt;(Hybrid fuzzy logic and pid controller based ph neutralization pilot plant)[https://github.com/markpp/Paper-notes/blob/master/process%20control/naseer2013hybrid.md] resume(ongoing)&lt;/p&gt;
-&lt;p&gt;(Learning to learn by gradient descent by gradient descent)[https://arxiv.org/abs/1606.04474]&lt;/p&gt;
-&lt;h1&gt;Possible improvements&lt;/h1&gt;
-&lt;p&gt;Here is a list of features that has the potential to improve the process, quality and knowledge of the product in general. Some of the features already exist in machines currently on the market.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Process&lt;ul&gt;
-&lt;li&gt;Increased injection cadence could lead to high throughput&lt;/li&gt;
-&lt;li&gt;Flexible injector that is easily integrated on the production line&lt;/li&gt;
-&lt;li&gt;Injection of in-bone meat&lt;/li&gt;
-&lt;li&gt;Reducing the number of steps/machines required to achieve the same result&lt;/li&gt;
-&lt;li&gt;Individualized robotic pre-massaging&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Quality&lt;ul&gt;
-&lt;li&gt;Adjustable injection depth&lt;/li&gt;
-&lt;li&gt;Flow monitoring&lt;/li&gt;
-&lt;li&gt;Finer injection patterns without needing more and tighter packed needles&lt;/li&gt;
-&lt;li&gt;Advanced injection strategies&lt;/li&gt;
-&lt;li&gt;Avoiding areas with bone or non muscle tissue&lt;/li&gt;
-&lt;li&gt;Avoid reaching extreme local concentrations of salt&lt;/li&gt;
-&lt;li&gt;Adapt injection to individual and local variation&lt;/li&gt;
-&lt;li&gt;Optimal injection wrt. to fiber orientation&lt;/li&gt;
-&lt;li&gt;Optimal injection wrt. muscle type&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Knowledge&lt;ul&gt;
-&lt;li&gt;Does the hardness of meat tell something about the ability to absorb brine?&lt;/li&gt;
-&lt;li&gt;Composition and tenderness of the meat can be used to grade and sort the product&lt;/li&gt;
-&lt;li&gt;What is there an optimal amount of brine pressure?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Project choices&lt;/h1&gt;
-&lt;p&gt;To move forward with the project it is necessary to decide on a limited number of ideas to proceed with and perform initial experimentation that can help determine their potential.&lt;/p&gt;
-&lt;h2&gt;Predicting brine absorption&lt;/h2&gt;
-&lt;p&gt;Possible techniques for determining meat properties that correlate with the ability to absorb brine and which, therefore can be used to predicting optimal process parameters for the individual pieces of meat and local areas as well.
-- Visual detection of red and white muscles
-- Haptic measurement of muscle firmness
-- Weight and size&lt;/p&gt;
-&lt;h2&gt;Process optimization&lt;/h2&gt;
-&lt;p&gt;Ideas for adjusting the process between product types, individual pieces of meat and even locally.
-- Adjust injection pattern
-- Injection strategy
-- Injection pressure
-- Injection speed(time)&lt;/p&gt;
-&lt;h2&gt;Measuring quality of salting&lt;/h2&gt;
-&lt;p&gt;In order to evaluate the prospective system and as feedback to the optimization method, it is necessary to find an appropriate and effective technique for determining the quality of the salting. The techniques are grouped in real-time appropriate and delayed techniques. The real-time methods are preferred because they can be automated and can provide direct feedback to a potential control loop. The delayed techniques are time consuming and are only appropriate for system calibration and evaluation.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Real-time&lt;ul&gt;
-&lt;li&gt;Ultrasound image&lt;/li&gt;
-&lt;li&gt;Injection of salt-meter electrodes to sample salinity&lt;/li&gt;
-&lt;li&gt;Local increase in weight/volume&lt;/li&gt;
-&lt;li&gt;Measure firmness -&amp;gt; texture [4]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Delayed&lt;ul&gt;
-&lt;li&gt;CT scanning, use contrast fluid if necessary&lt;/li&gt;
-&lt;li&gt;Slice and photograph, use contrast fluid if necessary&lt;/li&gt;
-&lt;li&gt;Drip loss/non-absorbed brine&lt;/li&gt;
-&lt;li&gt;(External color change)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Measuring salt content:
-&lt;a href="https://www.alibaba.com/product-detail/High-quality-RHS-28ATC-0-28_60393393403.html"&gt;Salt in brine&lt;/a&gt; and &lt;a href="https://qasupplies.com/ssx-210-salt-meter/"&gt;Salt in meat&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Platform&lt;/h2&gt;
-&lt;p&gt;There are two platforms that the project could potentially be based on. The first, is the type of dedicated machine that is currently used in the production out in the slaughterhouses. The alternative is mounting needles on a industrial robot arm, which at least initially is thought of as an experimentation platform.&lt;/p&gt;
-&lt;h3&gt;Dedicated injector&lt;/h3&gt;
-&lt;p&gt;Industrial multi-injectors have roughly looked the same for half a century. A large box build around a conveyor belt with rows of injection needles that are raised up and down while the conveyor belts moves the meat forward. An example, although very old, is available to be used and modified for this project. Depending on the ambition of the project, the machine needs to under extensive reconstruction.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;"Chip-tuning"&lt;/strong&gt; of existing multi-injection machine
-The use of an industrial dedicated multi-injection machine has a number of potential benefits and disadvantages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Pros&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Proven&lt;/li&gt;
-&lt;li&gt;Availability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Cons&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Not easily modified&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Some special features of this type of solution could be:
-- Automation of process parameters using feedback from weighing before and after injection
-- Automatic switching between recipes based on detection of meat type
-- Adjustment of injection parameters across meat piece according to each end's ability to absorb brine&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Advanced_chip-tuning" src="../../images/injection/advanced_chip-tuning.png"&gt;&lt;/p&gt;
-&lt;h3&gt;Robot cell injector&lt;/h3&gt;
-&lt;p&gt;The use of an industrial robot for injection has a number of potential benefits and disadvantages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Pros&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Adaptability to product variation, e.g. size, bone-in&lt;/li&gt;
-&lt;li&gt;Smaller footprint -&amp;gt; more freedom in placement&lt;/li&gt;
-&lt;li&gt;Multipurpose -&amp;gt; high utilization, redundancy&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Cons&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Unproven&lt;/li&gt;
-&lt;li&gt;Lower throughput(maybe)&lt;/li&gt;
-&lt;li&gt;New needle tool necessary&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Some special features of this type of solution could be:
-- Local injection of brine followed by weighing in order to determine local gain
-- Highly customized injection patterns
-- High flexibility in application
-- Automatic needle cleaning and switching&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Local injection experiment" src="../../images/injection/local_injection_experiment.png"&gt;&lt;/p&gt;
-&lt;h1&gt;Plan&lt;/h1&gt;
-&lt;p&gt;T3 and T4 could be entirely handheld at first.
-Tasks:&lt;/p&gt;
-&lt;p&gt;T1: Input sensing system
-Based on measurements of the input we need to predict the amount of brine to inject in local areas. The prediction will be based on image features in an RGB image. In addition a 3D profile of the input is needed in order to control where to inject with the injection tool mounted on the robot arm. Finally, a scanning of the internal structure of the meat will enable us to avoid areas of fat and bone, which should not be injected.&lt;/p&gt;
-&lt;p&gt;Features in prioritized order:
-- Prediction of brine absorption based on RGB
-- 3D scanning for injection control
-- Scanning of internal structure using CT or ultrasound&lt;/p&gt;
-&lt;p&gt;T2: Output sensing system
-Measurements of the output is need in order to determine the quality of the injection. The most basic measure for determining this is the drip loss rate. A potential improvement would be localized measurement of the increase in volume or a scanning that reveals the internal brine distribution.&lt;/p&gt;
-&lt;p&gt;Features in prioritized order:
-- Weighing at several points in time after injection for determining drip loss rate
-- 3D scanning before and after for determining local volume increase
-- Scanning of internal brine distribution&lt;/p&gt;
-&lt;p&gt;T3: Robot arm controller&lt;/p&gt;
-&lt;p&gt;Features in prioritized order:
-- Simple uniform injection pattern&lt;/p&gt;
-&lt;p&gt;T4: Injection tool&lt;/p&gt;
-&lt;p&gt;&lt;img alt="system_components" src="../../images/injection/mss_components.png.png"&gt;&lt;/p&gt;
-&lt;h1&gt;Hypothesis&lt;/h1&gt;
-&lt;p&gt;First of all, the purpose of the project is to achieve an equal or better distribution of salt in less time than with conventional equipment.&lt;/p&gt;
-&lt;p&gt;Below are a handful of hypothesis for how to achieve this goal:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;By letting a learning algorithm explore injection strategies it is possible to achieve a faster and more uniformly distributed salting.&lt;/p&gt;
-&lt;p&gt;It is possible to identify the individual meat piece's ability to absorb brine and adapt the injection parameters accordingly&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The same but for local areas of the same piece of meat&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Is it possible to measure to gain visually with a significant precision(what should this be?)&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The same but for local areas of the same piece of meat&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;What are the optimal process parameters for each type of meat&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Grid search for investigating interactions between parameters
-Classifier learns the correlation and predicts result&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Is it possible to predict the optimal process parameters for the individual pieces of meat&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The same but for local areas of the same piece of meat&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Is it possible to find features that allow for to capture the variation in individual pieces of meats?&lt;/p&gt;
-&lt;p&gt;Is it possible to distinguish between red and white meat fibers visually?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Process optimization&lt;ul&gt;
-&lt;li&gt;Optimal preparation of meat for uniform salt distribution&lt;/li&gt;
-&lt;li&gt;Optimal injection for uniform salt distribution&lt;/li&gt;
-&lt;li&gt;Optimal post injection processing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Example diagram of PID control of process parameters&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Closed-loop controller" src="../../images/injection/mss_controller_diagram.png"&gt;&lt;/p&gt;
-&lt;p&gt;[1]: DMRI report 2014: Optimeret produktion af forædlede kødprodukter, Tomas Jacobsen&lt;/p&gt;
-&lt;p&gt;[2]: DMRI report 2017: Optimeret produktion af forædlede kødprodukter - Accelereret saltning med multistiksprøjtning, Mikael Bülow Pedersen&lt;/p&gt;
-&lt;p&gt;[3]: Bøgh-Sørensen, L. &amp;amp; Zeuthen, P. (2002) Konserveringsteknik bind 2, 2. udgave. DSR Forlag.&lt;/p&gt;
-&lt;p&gt;[4]: Japaneese meal test &lt;a href="http://www.shimadzu.com/an/industry/foodbeverages/n9j25k00000d138f.html"&gt;link&lt;/a&gt;&lt;/p&gt;</content><category term="brine"></category><category term="injection"></category></entry></feed>
+&lt;a href="https://www.youtube.com/watch?v=sPfL9YIbYeY"&gt;Comau Racer robot how to shoot hoops&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=fdXRTKy_TrM"&gt;Mercedes-Benz Industrie 4.0&lt;/a&gt;&lt;/p&gt;</content><category term="project"></category><category term="video"></category></entry></feed>
