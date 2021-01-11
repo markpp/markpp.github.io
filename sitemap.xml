@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://markpp.github.io/</loc>
-<lastmod>2021-01-11T15:57:34-00:00</lastmod>
+<lastmod>2021-01-11T16:25:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://markpp.github.io/archives.html</loc>
-<lastmod>2021-01-11T15:57:34-00:00</lastmod>
+<lastmod>2021-01-11T16:25:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://markpp.github.io/tags.html</loc>
-<lastmod>2021-01-11T15:57:34-00:00</lastmod>
+<lastmod>2021-01-11T16:25:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://markpp.github.io/categories.html</loc>
-<lastmod>2021-01-11T15:57:34-00:00</lastmod>
+<lastmod>2021-01-11T16:25:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -102,6 +102,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://markpp.github.io/bachelor_projects.html</loc>
+<lastmod>2014-08-25T17:49:00+02:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://markpp.github.io/huawei.html</loc>
 <lastmod>2014-08-25T17:49:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -125,6 +132,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://markpp.github.io/category/other.html</loc>
 <lastmod>2017-02-23T17:49:00+00:50</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://markpp.github.io/category/projects.html</loc>
+<lastmod>2014-08-25T17:49:00+00:50</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -195,6 +209,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://markpp.github.io/tag/journal.html</loc>
 <lastmod>2017-02-23T17:49:00+00:50</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://markpp.github.io/tag/projects.html</loc>
+<lastmod>2014-08-25T17:49:00+00:50</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
